@@ -1,0 +1,288 @@
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 4; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 5; ]
+import Toybox.ActivityMonitor;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 7; ]
+class WatchFaceSimpleView extends WatchUi.WatchFace{
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_9_26_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 10 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_9_26_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 14; ]
+    function onLayout(dc as Dc) as Void {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_14_40_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 15 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_14_40_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 21; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 25; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_25_40_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 26 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setClockDisplay;
+        invoke %tmp.1 %tmp.2();
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 27 8 ]
+        %tmp.3 = self;
+        %tmp.4 = getv function %tmp.3 :setDateDisplay;
+        invoke %tmp.3 %tmp.4();
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 28 8 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :setBatteryDisplay;
+        invoke %tmp.5 %tmp.6();
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 29 8 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :setHeartrateDisplay;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 32 8 ]
+        %tmp.10 = getv ? :View;
+        %tmp.11 = getv function %tmp.10 :onUpdate;
+        %tmp.13 = lgetv %dc;
+        invoke %tmp.10 %tmp.11(%tmp.13);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_25_40_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 38; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 42; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 46; ]
+    function onEnterSleep() as Void {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 49; ]
+    protected
+    function setClockDisplay() {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 50 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_stop" ]
+        %clockTime.1 = local;
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %clockTime.1 %tmp.4;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 51 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_stop" ]
+        %timeString.2 = local;
+        %tmp.5 = getm $.Toybox.Lang;
+        %tmp.6 = getv function %tmp.5 :format;
+        %tmp.7 = "$1$:$2$";
+        %tmp.8 = newa 2;
+        %tmp.9 = lgetv %clockTime.1;
+        %tmp.10 = getv %tmp.9 :hour;
+        %tmp.11 = dup %tmp.8;
+        %tmp.12 = aputv %tmp.11 0 %tmp.10;
+        %tmp.13 = lgetv %clockTime.1;
+        %tmp.14 = getv %tmp.13 :min;
+        %tmp.15 = getv function %tmp.14 :format;
+        %tmp.16 = "%02d";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = dup %tmp.12;
+        %tmp.19 = aputv %tmp.18 1 %tmp.17;
+        %tmp.20 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.19);
+        lputv %timeString.2 %tmp.20;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 52 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_stop" ]
+        %view.3 = local;
+        %tmp.22 = getv ? :View;
+        %tmp.23 = getv function %tmp.22 :findDrawableById;
+        %tmp.24 = "TimeDisplay";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        %tmp.26 = as %tmp.25 Text;
+        lputv %view.3 %tmp.26;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 53 8 ]
+        %tmp.27 = lgetv %view.3;
+        %tmp.28 = getv function %tmp.27 :setText;
+        %tmp.30 = lgetv %timeString.2;
+        invoke %tmp.27 %tmp.28(%tmp.30);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_49_38_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 56; ]
+    protected
+    function setDateDisplay() {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 57 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_stop" ]
+        %now.1 = local;
+        %tmp.2 = getv ? :Time;
+        %tmp.3 = getv function %tmp.2 :now;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %now.1 %tmp.4;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 58 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_stop" ]
+        %date.2 = local;
+        %tmp.5 = getm $.Toybox.Time.Gregorian;
+        %tmp.6 = getv function %tmp.5 :info;
+        %tmp.8 = lgetv %now.1;
+        %tmp.10 = getv ? :Time;
+        %tmp.11 = getv %tmp.10 :FORMAT_LONG;
+        %tmp.12 = invoke %tmp.5 %tmp.6(%tmp.8, %tmp.11);
+        lputv %date.2 %tmp.12;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 59 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_stop" ]
+        %dateString.3 = local;
+        %tmp.13 = getm $.Toybox.Lang;
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "$1$ $2$, $3$";
+        %tmp.16 = newa 3;
+        %tmp.17 = lgetv %date.2;
+        %tmp.18 = getv %tmp.17 :month;
+        %tmp.19 = dup %tmp.16;
+        %tmp.20 = aputv %tmp.19 0 %tmp.18;
+        %tmp.21 = lgetv %date.2;
+        %tmp.22 = getv %tmp.21 :day;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 1 %tmp.22;
+        %tmp.25 = lgetv %date.2;
+        %tmp.26 = getv %tmp.25 :year;
+        %tmp.27 = dup %tmp.24;
+        %tmp.28 = aputv %tmp.27 2 %tmp.26;
+        %tmp.29 = invoke %tmp.13 %tmp.14(%tmp.15, %tmp.28);
+        lputv %dateString.3 %tmp.29;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 60 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_stop" ]
+        %dateDisplay.4 = local;
+        %tmp.31 = getv ? :View;
+        %tmp.32 = getv function %tmp.31 :findDrawableById;
+        %tmp.33 = "DateDisplay";
+        %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
+        %tmp.35 = as %tmp.34 Text;
+        lputv %dateDisplay.4 %tmp.35;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 61 5 ]
+        %tmp.36 = lgetv %dateDisplay.4;
+        %tmp.37 = getv function %tmp.36 :setText;
+        %tmp.39 = lgetv %dateString.3;
+        invoke %tmp.36 %tmp.37(%tmp.39);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_56_37_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 64; ]
+    protected
+    function setBatteryDisplay() {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_40_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 65 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_40_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_40_stop" ]
+        %battery.1 = local;
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :getSystemStats;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = getv %tmp.4 :battery;
+        lputv %battery.1 %tmp.5;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 66 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_40_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_40_stop" ]
+        %batteryDisplay.2 = local;
+        %tmp.7 = getv ? :View;
+        %tmp.8 = getv function %tmp.7 :findDrawableById;
+        %tmp.9 = "BatteryDisplay";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        %tmp.11 = as %tmp.10 Text;
+        lputv %batteryDisplay.2 %tmp.11;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 67 5 ]
+        %tmp.12 = lgetv %batteryDisplay.2;
+        %tmp.13 = getv function %tmp.12 :setText;
+        %tmp.14 = lgetv %battery.1;
+        %tmp.15 = getv function %tmp.14 :format;
+        %tmp.16 = "%d";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = "%";
+        %tmp.19 = add %tmp.17 %tmp.18;
+        invoke %tmp.12 %tmp.13(%tmp.19);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_40_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 70; ]
+    private
+    function setHeartrateDisplay() {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 71 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_stop" ]
+        %heartRate.1 = local;
+        %tmp.1 = "";
+        lputv %heartRate.1 %tmp.1;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 72 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_stop" ]
+        %heartrateIterator.2 = local;
+        %tmp.2 = getm $.Toybox.ActivityMonitor;
+        %tmp.3 = getv function %tmp.2 :getHeartRateHistory;
+        %tmp.4 = null;
+        %tmp.5 = false;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+        lputv %heartrateIterator.2 %tmp.6;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 73 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_stop" ]
+        %currentHeartrate.3 = local;
+        %tmp.7 = lgetv %heartrateIterator.2;
+        %tmp.8 = getv function %tmp.7 :next;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv %tmp.9 :heartRate;
+        lputv %currentHeartrate.3 %tmp.10;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 75 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_8_if_stmt:
+        %tmp.12 = lgetv %currentHeartrate.3;
+        %tmp.13 = getm $.Toybox.ActivityMonitor;
+        %tmp.14 = getv %tmp.13 :INVALID_HR_SAMPLE;
+        %tmp.15 = eq %tmp.12 %tmp.14;
+        bf %tmp.15 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_8_if_false;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_66_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 76 12 ]
+        %tmp.16 = "--";
+        lputv %heartRate.1 %tmp.16;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_66_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_8_if_false:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_77_15_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 78 12 ]
+        %tmp.17 = lgetv %currentHeartrate.3;
+        %tmp.18 = getv function %tmp.17 :format;
+        %tmp.19 = "%d";
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        lputv %heartRate.1 %tmp.20;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_77_15_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_75_8_if_end:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 81 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_stop" ]
+        %heartrateDisplay.4 = local;
+        %tmp.22 = getv ? :View;
+        %tmp.23 = getv function %tmp.22 :findDrawableById;
+        %tmp.24 = "HeartrateDisplay";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        %tmp.26 = as %tmp.25 Text;
+        lputv %heartrateDisplay.4 %tmp.26;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 82 5 ]
+        %tmp.27 = lgetv %heartrateDisplay.4;
+        %tmp.28 = getv function %tmp.27 :setText;
+        %tmp.30 = lgetv %heartRate.1;
+        invoke %tmp.27 %tmp.28(%tmp.30);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_43_stop:
+    }
+}
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 1; ]
+<init> {
+}
