@@ -1,3 +1,19 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <drawable-list id="shapes">
+        <shape type="rectangle" x="10%" y="10%"  width="80%" height="80%" color="Graphics.COLOR_WHITE"/>
+        <!-- Top layer -->
+        <shape type="rectangle" x="20%" y="10%"  width="20%" height="20%" color="Graphics.COLOR_RED"/>
+        <shape type="rectangle" x="40%" y="10%"  width="20%" height="20%" color="Graphics.COLOR_BLUE"/>
+        <shape type="rectangle" x="60%" y="10%"  width="20%" height="20%" color="Graphics.COLOR_DK_GREEN"/>
+        <!-- Middle layer -->
+        <shape type="rectangle" x="10%" y="30%"  width="30%" height="40%" color="Graphics.COLOR_LT_GRAY"/>
+        <shape type="rectangle" x="40%" y="30%"  width="30%" height="40%" color="Graphics.COLOR_DK_GRAY"/>
+        <shape type="rectangle" x="70%" y="30%"  width="20%" height="20%" color="Graphics.COLOR_ORANGE"/>
+        <shape type="rectangle" x="70%" y="50%"  width="20%" height="20%" color="Graphics.COLOR_YELLOW"/>
+        <!-- Bottom layer -->
+        <shape type="rectangle" x="20%" y="70%"  width="20%" height="20%" color="Graphics.COLOR_RED"/>
+        <shape type="rectangle" x="40%" y="70%"  width="20%" height="20%" color="Graphics.COLOR_BLUE"/>
+        <shape type="rectangle" x="60%" y="70%"  width="20%" height="20%" color="Graphics.COLOR_DK_GREEN"/>
+    </drawable-list>
 </drawables>
