@@ -12,8 +12,8 @@
         <shape type="rectangle" x="70%" y="30%"  width="20%" height="20%" color="Graphics.COLOR_ORANGE"/>
         <shape type="rectangle" x="70%" y="50%"  width="20%" height="20%" color="Graphics.COLOR_YELLOW"/>
         <!-- Bottom layer -->
-        <shape type="rectangle" x="20%" y="70%"  width="20%" height="20%" color="Graphics.COLOR_RED"/>
-        <shape type="rectangle" x="40%" y="70%"  width="20%" height="20%" color="Graphics.COLOR_BLUE"/>
-        <shape type="rectangle" x="60%" y="70%"  width="20%" height="20%" color="Graphics.COLOR_DK_GREEN"/>
+        <shape type="rectangle" x="20%" y="70%"  width="1%" height="20%" color="Graphics.COLOR_RED"/>
+        <shape type="rectangle" x="40%" y="70%"  width="1%" height="20%" color="Graphics.COLOR_BLUE"/>
+        <shape type="rectangle" x="60%" y="70%"  width="1%" height="20%" color="Graphics.COLOR_DK_GREEN"/>
     </drawable-list>
 </drawables>

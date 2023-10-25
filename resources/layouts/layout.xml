@@ -1,8 +1,26 @@
 <layout id="WatchFace">
-    <text-area id="HoursMinutesText" text="HH:MM" x="10%" y="30%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="60%" height="40%"/>
-    <text-area id="SecondsText" text="SS" x="70%" y="30%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="20%"/>
-    <text-area id="BatteryText" text="-- %" x="70%" y="50%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE"  width="20%" height="20%"/>
+    <!-- Top Left Area -->
+    <text-area id="Text" text="--" x="20%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="Icon" text="--" x="20%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
+    <!-- Top Middle Area -->
+    <text-area id="TemperatureText" text="--" x="40%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="TemperatureIcon" text="ºC" x="40%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
+    <!-- Top Right Area -->
+    <text-area id="SunsetText" text="--:--" x="60%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="SunsetIcon" text="SSET" x="60%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
+    
 
-    <!-- <label id="DateDisplay" text="DD/MM" x="center" y="bottom" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />       -->
-    <!-- <label id="HeartrateDisplay" text="HR" x="left" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" /> -->
+    <!-- Middle Area -->
+    <text-area id="HoursMinutesText" text="99:99" x="10%" y="30%" font="@Fonts.OpenSansBold" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="80%" height="40%"/>
+    <text-area id="SecondsText" text="SS" x="right" y="center" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="20%"/>
+    
+    <!-- Bottom Left Area  -->
+    <text-area id="HeartRateText" text="---" x="20%" y="70%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="HeartRateIcon" text="HR" x="20%" y="80%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
+    <!-- Bottom Middle Area  -->
+    <text-area id="DateDayText" text="DDD" x="40%" y="70%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="DateNumberText" text="DD" x="40%" y="80%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <!-- Bottom Right Area  -->
+    <text-area id="BatteryText" text="--%" x="60%" y="70%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="BatteryIcon" text="BAT" x="60%" y="80%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
 </layout>

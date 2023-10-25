@@ -3,14 +3,21 @@ import Toybox.WatchUi;
 import Toybox.Lang;
 import Toybox.Time.Gregorian;
 import Toybox.ActivityMonitor;
+import Toybox.Weather;
+import Toybox.Position;
 
 class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     var myShapes;
+    var date;
+    var clockFont;
+    var currentConditions;
 
     function initialize() {
         WatchFace.initialize();
         myShapes = new Rez.Drawables.shapes();
+        currentConditions = Weather.getCurrentConditions();
+	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
     } 
 
     // Load your resources here
@@ -27,19 +34,21 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+        // View.onUpdate(dc);
 
         // Draw Background Template 
-        myShapes.draw(dc);
+        // myShapes.draw();
 
-        drawHoursMinutes(dc);
-        drawSeconds(dc);
-        drawBattery(dc);
-        // setClockDisplay();
-        // setDateDisplay();
-        // setBatteryDisplay();
-        // setHeartrateDisplay();
+        
+        setHoursMinutes();
+        setSeconds();
+        setBattery();
+        setHeartRate();
+        setDate();
+        setTemperature();
+        setSunset();
 
+        View.onUpdate(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -56,38 +65,27 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     function onEnterSleep() as Void {
     }
 
-    hidden function drawHoursMinutes(dc) {
+    hidden function setHoursMinutes() {
         var clockTime = System.getClockTime();
         var timeString = Lang.format("$1$:$2$", [clockTime.hour.format("%02d"), clockTime.min.format("%02d")]);
-        var view = View.findDrawableById("HoursMinutesText");
-        (view as Text).setText(timeString);
-        view.draw(dc);
+        var view = View.findDrawableById("HoursMinutesText") as Text;
+        view.setText(timeString);
     }
 
-    hidden function drawSeconds(dc) {
+    hidden function setSeconds() {
         var clockTime = System.getClockTime();
         var secondsString = clockTime.sec.format("%02d");
-        var view = View.findDrawableById("SecondsText");
-        (view as Text).setText(secondsString);
-        view.draw(dc);
+        var view = View.findDrawableById("SecondsText") as Text;
+        view.setText(secondsString);
     }
 
-    hidden function drawBattery(dc) {
+    hidden function setBattery() {
         var battery = System.getSystemStats().battery;				
-	    var view = View.findDrawableById("BatteryText");      
-	    (view as Text).setText(battery.format("%d")+"%");
-        view.draw(dc);
+	    var view = View.findDrawableById("BatteryText") as Text;      
+	    view.setText(battery.format("%d")+"%");
     }
 
-    hidden function setDateDisplay() {        
-    	var now = Time.now();
-	    var date = Gregorian.info(now, Time.FORMAT_LONG);
-	    var dateString = Lang.format("$1$ $2$, $3$", [date.month, date.day, date.year]);
-	    var dateDisplay = View.findDrawableById("DateDisplay")as Text;      
-	    dateDisplay.setText(dateString);	    	
-    }
-
-    hidden function setHeartrateDisplay() {
+    hidden function setHeartRate() {
     	var heartRate = "";
         var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
         var currentHeartrate = heartrateIterator.next().heartRate;
@@ -98,7 +96,33 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             heartRate = currentHeartrate.format("%d");
         }	
 
-	    var heartrateDisplay = View.findDrawableById("HeartrateDisplay") as Text;      
+	    var heartrateDisplay = View.findDrawableById("HeartRateText") as Text;      
 	    heartrateDisplay.setText(heartRate);
+    }
+
+    hidden function setDate() {        
+        var dateNumberString = Lang.format("$1$", [date.day]);
+	    var dateDayString = Lang.format("$1$", [date.day_of_week]).substring(0, 3).toUpper();
+	    var dateNumber = View.findDrawableById("DateNumberText") as Text;      
+	    dateNumber.setText(dateNumberString);	    
+        var dateDay = View.findDrawableById("DateDayText") as Text;      
+	    dateDay.setText(dateDayString);
+    }
+
+    hidden function setTemperature() {
+	    var tempText = View.findDrawableById("TemperatureText") as Text;    
+        if(currentConditions.temperature != null) {
+	        tempText.setText(currentConditions.temperature.toString());
+        }  
+    }
+
+    hidden function setSunset() {
+        if (currentConditions.observationLocationPosition != null && currentConditions.observationTime != null) {
+            var sunsetTimeObj = Weather.getSunset(currentConditions.observationLocationPosition, currentConditions.observationTime);
+            var info = Gregorian.utcInfo(sunsetTimeObj, Time.FORMAT_SHORT);
+            var sunsetTime = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
+            var sunsetTextArea = View.findDrawableById("SunsetText") as Text;      
+            sunsetTextArea.setText(sunsetTime);
+        }
     }
 }
