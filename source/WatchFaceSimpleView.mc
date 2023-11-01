@@ -8,20 +8,17 @@ import Toybox.Position;
 
 class WatchFaceSimpleView extends WatchUi.WatchFace {
 
-    var myShapes;
-    var date;
     var settings;
     var stats;
-    var clockFont;
+    var date;
     var currentConditions;
 
     function initialize() {
         WatchFace.initialize();
-        myShapes = new Rez.Drawables.shapes();
-        currentConditions = Weather.getCurrentConditions();
-	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
+	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+        currentConditions = Weather.getCurrentConditions();
     } 
 
     // Load your resources here
@@ -37,9 +34,6 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Draw Background Template 
-        // myShapes.draw();
-
         setHoursMinutes();
         setSeconds();
         setHeartRate();
@@ -137,10 +131,10 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 	        var textArea = View.findDrawableById("TemperatureText") as Text; 
             textArea.setText(currentConditions.temperature.format("%d"));
 
-            // Change icon to fahrenheit if defined in system settings
+            // Change unit to fahrenheit if defined in system settings
             if (settings != null && settings.temperatureUnits != null) {
                 if (settings.temperatureUnits == "UNIT_STATUTE") {
-                    var temperatureIcon = View.findDrawableById("TemperatureIcon") as Text;
+                    var temperatureIcon = View.findDrawableById("TemperatureUnit") as Text;
                     temperatureIcon.setText("ºF");
                 }
             }
