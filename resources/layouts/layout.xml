@@ -1,10 +1,10 @@
 <layout id="WatchFace">
-    <!-- Top Left Area -->
-    <text-area id="Text" text="--" x="20%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
-    <text-area id="Icon" text="--" x="20%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
+    <!-- Top Left Area -->    
+    <text-area id="TemperatureText" text="--" x="20%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="TemperatureIcon" text="ºC" x="20%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
     <!-- Top Middle Area -->
-    <text-area id="TemperatureText" text="--" x="40%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
-    <text-area id="TemperatureIcon" text="ºC" x="40%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
+    <text-area id="RainText" text="--%" x="40%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="RainIcon" text="RAIN" x="40%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
     <!-- Top Right Area -->
     <text-area id="SunsetText" text="--:--" x="60%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
     <text-area id="SunsetIcon" text="SSET" x="60%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>

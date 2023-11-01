@@ -767,12 +767,12 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             lputv %local_Rez_Fonts_OpenSansBold.1 %tmp.8;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 61 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_stop" ]
-            %rez_cmp_local_textarea_Text.2 = local;
+            %rez_cmp_local_textarea_TemperatureText.2 = local;
             %tmp.11 = getm $.Toybox.WatchUi;
             %tmp.12 = getv function ? %tmp.11 :TextArea;
             %tmp.13 = newd 9;
             %tmp.15 = const :identifier;
-            %tmp.16 = "Text";
+            %tmp.16 = "TemperatureText";
             %tmp.17 = dup %tmp.13;
             %tmp.18 = aputv %tmp.17 %tmp.15 %tmp.16;
             %tmp.20 = const :color;
@@ -833,15 +833,15 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.82 = dup %tmp.74;
             %tmp.83 = aputv %tmp.82 %tmp.76 %tmp.81;
             %tmp.9 = newc %tmp.12 (%tmp.83);
-            lputv %rez_cmp_local_textarea_Text.2 %tmp.9;
+            lputv %rez_cmp_local_textarea_TemperatureText.2 %tmp.9;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 63 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_stop" ]
-            %rez_cmp_local_textarea_Icon.3 = local;
+            %rez_cmp_local_textarea_TemperatureIcon.3 = local;
             %tmp.86 = getm $.Toybox.WatchUi;
             %tmp.87 = getv function ? %tmp.86 :TextArea;
             %tmp.88 = newd 9;
             %tmp.90 = const :identifier;
-            %tmp.91 = "Icon";
+            %tmp.91 = "TemperatureIcon";
             %tmp.92 = dup %tmp.88;
             %tmp.93 = aputv %tmp.92 %tmp.90 %tmp.91;
             %tmp.95 = const :color;
@@ -874,7 +874,7 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.125 = dup %tmp.117;
             %tmp.126 = aputv %tmp.125 %tmp.119 %tmp.124;
             %tmp.128 = const :text;
-            %tmp.129 = "--";
+            %tmp.129 = "ºC";
             %tmp.130 = dup %tmp.126;
             %tmp.131 = aputv %tmp.130 %tmp.128 %tmp.129;
             %tmp.133 = const :justification;
@@ -902,15 +902,15 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.157 = dup %tmp.149;
             %tmp.158 = aputv %tmp.157 %tmp.151 %tmp.156;
             %tmp.84 = newc %tmp.87 (%tmp.158);
-            lputv %rez_cmp_local_textarea_Icon.3 %tmp.84;
+            lputv %rez_cmp_local_textarea_TemperatureIcon.3 %tmp.84;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 65 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_stop" ]
-            %rez_cmp_local_textarea_TemperatureText.4 = local;
+            %rez_cmp_local_textarea_RainText.4 = local;
             %tmp.161 = getm $.Toybox.WatchUi;
             %tmp.162 = getv function ? %tmp.161 :TextArea;
             %tmp.163 = newd 9;
             %tmp.165 = const :identifier;
-            %tmp.166 = "TemperatureText";
+            %tmp.166 = "RainText";
             %tmp.167 = dup %tmp.163;
             %tmp.168 = aputv %tmp.167 %tmp.165 %tmp.166;
             %tmp.170 = const :color;
@@ -943,7 +943,7 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.200 = dup %tmp.192;
             %tmp.201 = aputv %tmp.200 %tmp.194 %tmp.199;
             %tmp.203 = const :text;
-            %tmp.204 = "--";
+            %tmp.204 = "--%";
             %tmp.205 = dup %tmp.201;
             %tmp.206 = aputv %tmp.205 %tmp.203 %tmp.204;
             %tmp.208 = const :justification;
@@ -971,15 +971,15 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.232 = dup %tmp.224;
             %tmp.233 = aputv %tmp.232 %tmp.226 %tmp.231;
             %tmp.159 = newc %tmp.162 (%tmp.233);
-            lputv %rez_cmp_local_textarea_TemperatureText.4 %tmp.159;
+            lputv %rez_cmp_local_textarea_RainText.4 %tmp.159;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 67 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_stop" ]
-            %rez_cmp_local_textarea_TemperatureIcon.5 = local;
+            %rez_cmp_local_textarea_RainIcon.5 = local;
             %tmp.236 = getm $.Toybox.WatchUi;
             %tmp.237 = getv function ? %tmp.236 :TextArea;
             %tmp.238 = newd 9;
             %tmp.240 = const :identifier;
-            %tmp.241 = "TemperatureIcon";
+            %tmp.241 = "RainIcon";
             %tmp.242 = dup %tmp.238;
             %tmp.243 = aputv %tmp.242 %tmp.240 %tmp.241;
             %tmp.245 = const :color;
@@ -1012,7 +1012,7 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.275 = dup %tmp.267;
             %tmp.276 = aputv %tmp.275 %tmp.269 %tmp.274;
             %tmp.278 = const :text;
-            %tmp.279 = "ºC";
+            %tmp.279 = "RAIN";
             %tmp.280 = dup %tmp.276;
             %tmp.281 = aputv %tmp.280 %tmp.278 %tmp.279;
             %tmp.283 = const :justification;
@@ -1040,7 +1040,7 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             %tmp.307 = dup %tmp.299;
             %tmp.308 = aputv %tmp.307 %tmp.301 %tmp.306;
             %tmp.234 = newc %tmp.237 (%tmp.308);
-            lputv %rez_cmp_local_textarea_TemperatureIcon.5 %tmp.234;
+            lputv %rez_cmp_local_textarea_RainIcon.5 %tmp.234;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 69 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73_stop" ]
             %rez_cmp_local_textarea_SunsetText.6 = local;
@@ -1740,16 +1740,16 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_59_73
             lputv %rez_cmp_local_textarea_BatteryIcon.15 %tmp.992;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 89 12 ]
             %tmp.1067 = newa Array<WatchUi.Drawable> 14;
-            %tmp.1069 = lgetv %rez_cmp_local_textarea_Text.2;
+            %tmp.1069 = lgetv %rez_cmp_local_textarea_TemperatureText.2;
             %tmp.1070 = dup %tmp.1067;
             %tmp.1071 = aputv %tmp.1070 0 %tmp.1069;
-            %tmp.1073 = lgetv %rez_cmp_local_textarea_Icon.3;
+            %tmp.1073 = lgetv %rez_cmp_local_textarea_TemperatureIcon.3;
             %tmp.1074 = dup %tmp.1071;
             %tmp.1075 = aputv %tmp.1074 1 %tmp.1073;
-            %tmp.1077 = lgetv %rez_cmp_local_textarea_TemperatureText.4;
+            %tmp.1077 = lgetv %rez_cmp_local_textarea_RainText.4;
             %tmp.1078 = dup %tmp.1075;
             %tmp.1079 = aputv %tmp.1078 2 %tmp.1077;
-            %tmp.1081 = lgetv %rez_cmp_local_textarea_TemperatureIcon.5;
+            %tmp.1081 = lgetv %rez_cmp_local_textarea_RainIcon.5;
             %tmp.1082 = dup %tmp.1079;
             %tmp.1083 = aputv %tmp.1082 3 %tmp.1081;
             %tmp.1085 = lgetv %rez_cmp_local_textarea_SunsetText.6;

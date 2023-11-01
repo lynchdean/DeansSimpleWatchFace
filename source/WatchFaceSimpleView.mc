@@ -33,21 +33,19 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Call the parent onUpdate function to redraw the layout
-        // View.onUpdate(dc);
-
         // Draw Background Template 
         // myShapes.draw();
 
-        
         setHoursMinutes();
         setSeconds();
-        setBattery();
         setHeartRate();
         setDate();
-        setTemperature();
-        setSunset();
-
+        setBattery();
+        if (currentConditions != null) {
+            setTemperature();
+            setPrecipitationChance();
+            setSunset();
+        }
         View.onUpdate(dc);
     }
 
@@ -68,21 +66,21 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     hidden function setHoursMinutes() {
         var clockTime = System.getClockTime();
         var timeString = Lang.format("$1$:$2$", [clockTime.hour.format("%02d"), clockTime.min.format("%02d")]);
-        var view = View.findDrawableById("HoursMinutesText") as Text;
-        view.setText(timeString);
+        var textArea = View.findDrawableById("HoursMinutesText") as Text;
+        textArea.setText(timeString);
     }
 
     hidden function setSeconds() {
         var clockTime = System.getClockTime();
         var secondsString = clockTime.sec.format("%02d");
-        var view = View.findDrawableById("SecondsText") as Text;
-        view.setText(secondsString);
+        var textArea = View.findDrawableById("SecondsText") as Text;
+        textArea.setText(secondsString);
     }
 
     hidden function setBattery() {
         var battery = System.getSystemStats().battery;				
-	    var view = View.findDrawableById("BatteryText") as Text;      
-	    view.setText(battery.format("%d")+"%");
+	    var textArea = View.findDrawableById("BatteryText") as Text;      
+	    textArea.setText(battery.format("%d")+"%");
     }
 
     hidden function setHeartRate() {
@@ -105,24 +103,32 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 	    var dateDayString = Lang.format("$1$", [date.day_of_week]).substring(0, 3).toUpper();
 	    var dateNumber = View.findDrawableById("DateNumberText") as Text;      
 	    dateNumber.setText(dateNumberString);	    
-        var dateDay = View.findDrawableById("DateDayText") as Text;      
-	    dateDay.setText(dateDayString);
+        var textArea = View.findDrawableById("DateDayText") as Text;      
+	    textArea.setText(dateDayString);
     }
 
-    hidden function setTemperature() {
-	    var tempText = View.findDrawableById("TemperatureText") as Text;    
+    hidden function setTemperature() {   
         if(currentConditions.temperature != null) {
-	        tempText.setText(currentConditions.temperature.toString());
+	        var textArea = View.findDrawableById("TemperatureText") as Text; 
+            textArea.setText(currentConditions.temperature.format("%d"));
         }  
+    }
+
+    hidden function setPrecipitationChance() {
+        if (currentConditions.precipitationChance != null) {
+            var chance = currentConditions.precipitationChance;
+            var textArea = View.findDrawableById("RainText") as Text; 
+            textArea.setText(chance.format("%d") + "%");
+        }
     }
 
     hidden function setSunset() {
         if (currentConditions.observationLocationPosition != null && currentConditions.observationTime != null) {
-            var sunsetTimeObj = Weather.getSunset(currentConditions.observationLocationPosition, currentConditions.observationTime);
-            var info = Gregorian.utcInfo(sunsetTimeObj, Time.FORMAT_SHORT);
-            var sunsetTime = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
-            var sunsetTextArea = View.findDrawableById("SunsetText") as Text;      
-            sunsetTextArea.setText(sunsetTime);
+            var sunset = Weather.getSunset(currentConditions.observationLocationPosition, currentConditions.observationTime);
+            var info = Gregorian.utcInfo(sunset, Time.FORMAT_SHORT);
+            var time = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
+            var textArea = View.findDrawableById("SunsetText") as Text;      
+            textArea.setText(time);
         }
     }
 }
