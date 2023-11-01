@@ -10,6 +10,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     var myShapes;
     var date;
+    var settings;
+    var stats;
     var clockFont;
     var currentConditions;
 
@@ -18,6 +20,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         myShapes = new Rez.Drawables.shapes();
         currentConditions = Weather.getCurrentConditions();
 	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+        settings = System.getDeviceSettings();
+        stats = System.getSystemStats();
     } 
 
     // Load your resources here
@@ -78,9 +82,30 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     hidden function setBattery() {
-        var battery = System.getSystemStats().battery;				
-	    var textArea = View.findDrawableById("BatteryText") as Text;      
+        var battery = stats.battery;	
+        var textArea = View.findDrawableById("BatteryText") as Text;      
 	    textArea.setText(battery.format("%d")+"%");
+
+        // Set battery icon
+        var icon = View.findDrawableById("BatteryIcon") as Text;
+        if (stats.charging)  {
+            // Set icon to charging 
+            icon.setText("CHRG");
+            icon.setColor(Graphics.COLOR_GREEN);
+        } else if (battery > 75) {
+            // display as full
+            icon.setText("FULL");
+        } else if (battery > 50) {
+            // display as 3/4
+            icon.setText("3/4");
+        } else if (battery > 25) {
+            // display as 1/2
+            icon.setText("1/2");
+        } else {
+            // display as 1/4 and change to red
+            icon.setText("1/4");
+            icon.setColor(Graphics.COLOR_RED);
+        } 
     }
 
     hidden function setHeartRate() {
@@ -111,6 +136,14 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         if(currentConditions.temperature != null) {
 	        var textArea = View.findDrawableById("TemperatureText") as Text; 
             textArea.setText(currentConditions.temperature.format("%d"));
+
+            // Change icon to fahrenheit if defined in system settings
+            if (settings != null && settings.temperatureUnits != null) {
+                if (settings.temperatureUnits == "UNIT_STATUTE") {
+                    var temperatureIcon = View.findDrawableById("TemperatureIcon") as Text;
+                    temperatureIcon.setText("ºF");
+                }
+            }
         }  
     }
 
