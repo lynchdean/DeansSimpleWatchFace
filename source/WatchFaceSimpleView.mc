@@ -63,7 +63,14 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     hidden function setHoursMinutes() {
         var clockTime = System.getClockTime();
-        var timeString = Lang.format("$1$:$2$", [clockTime.hour.format("%02d"), clockTime.min.format("%02d")]);
+        var hour = clockTime.hour;
+        if (!settings.is24Hour) {
+            hour = hour % 12;
+            if (hour == 00) {
+                hour = 12;
+            }
+        }
+        var timeString = Lang.format("$1$:$2$", [hour.format("%02d"), clockTime.min.format("%02d")]);
         var textArea = View.findDrawableById("HoursMinutesText") as Text;
         textArea.setText(timeString);
     }
@@ -84,20 +91,20 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var icon = View.findDrawableById("BatteryIcon") as Text;
         if (stats.charging)  {
             // Set icon to charging 
-            icon.setText("CHRG");
+            // icon.setText("CHRG");
             icon.setColor(Graphics.COLOR_GREEN);
         } else if (battery > 75) {
             // display as full
-            icon.setText("FULL");
+            // icon.setText("FULL");
         } else if (battery > 50) {
             // display as 3/4
-            icon.setText("3/4");
+            // icon.setText("3/4");
         } else if (battery > 25) {
             // display as 1/2
-            icon.setText("1/2");
+            // icon.setText("1/2");
         } else {
             // display as 1/4 and change to red
-            icon.setText("1/4");
+            // icon.setText("1/4");
             icon.setColor(Graphics.COLOR_RED);
         } 
     }
