@@ -36,6 +36,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         setHoursMinutes();
         setSeconds();
+        setConnected();
         setHeartRate();
         setDate();
         setBattery();
@@ -80,6 +81,15 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var secondsString = clockTime.sec.format("%02d");
         var textArea = View.findDrawableById("SecondsText") as Text;
         textArea.setText(secondsString);
+    }
+
+    hidden function setConnected() {
+        if (settings.phoneConnected != null) {
+            if (settings.phoneConnected) {
+                var textArea = View.findDrawableById("ConnnectedBT") as Text;      
+                textArea.setText("B");
+            }
+        }
     }
 
     hidden function setBattery() {
@@ -131,11 +141,11 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 	        var textArea = View.findDrawableById("TemperatureText") as Text; 
             textArea.setText(currentConditions.temperature.format("%d"));
 
-            // Change unit to fahrenheit if defined in system settings
+            // Change unit to fahrenheit if statute defined in system settings
             if (settings != null && settings.temperatureUnits != null) {
-                if (settings.temperatureUnits == "UNIT_STATUTE") {
-                    var temperatureIcon = View.findDrawableById("TemperatureUnit") as Text;
-                    temperatureIcon.setText("ºF");
+                if (settings.UNIT_STATUTE == 1) {
+                    var temperatureUnit = View.findDrawableById("TemperatureUnit") as Text;
+                    temperatureUnit.setText("ºF");
                 }
             }
         }  

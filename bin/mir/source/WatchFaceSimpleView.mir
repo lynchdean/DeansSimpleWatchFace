@@ -93,104 +93,108 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_36_40_start:
         invoke %tmp.3 %tmp.4();
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 39 8 ]
         %tmp.5 = self;
-        %tmp.6 = getv function %tmp.5 :setHeartRate;
+        %tmp.6 = getv function %tmp.5 :setConnected;
         invoke %tmp.5 %tmp.6();
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 40 8 ]
         %tmp.7 = self;
-        %tmp.8 = getv function %tmp.7 :setDate;
+        %tmp.8 = getv function %tmp.7 :setHeartRate;
         invoke %tmp.7 %tmp.8();
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 41 8 ]
         %tmp.9 = self;
-        %tmp.10 = getv function %tmp.9 :setBattery;
+        %tmp.10 = getv function %tmp.9 :setDate;
         invoke %tmp.9 %tmp.10();
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 42 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_8_if_stmt:
-        %tmp.12 = getv ? :currentConditions;
-        %tmp.13 = null;
-        %tmp.14 = ne %tmp.12 %tmp.13;
-        bf %tmp.14 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_39_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 43 12 ]
-        %tmp.15 = self;
-        %tmp.16 = getv function %tmp.15 :setTemperature;
-        invoke %tmp.15 %tmp.16();
+        %tmp.11 = self;
+        %tmp.12 = getv function %tmp.11 :setBattery;
+        invoke %tmp.11 %tmp.12();
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 43 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_8_if_stmt:
+        %tmp.14 = getv ? :currentConditions;
+        %tmp.15 = null;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        bf %tmp.16 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_39_start:
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 44 12 ]
         %tmp.17 = self;
-        %tmp.18 = getv function %tmp.17 :setPrecipitationChance;
+        %tmp.18 = getv function %tmp.17 :setTemperature;
         invoke %tmp.17 %tmp.18();
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 45 12 ]
         %tmp.19 = self;
-        %tmp.20 = getv function %tmp.19 :setSunset;
+        %tmp.20 = getv function %tmp.19 :setPrecipitationChance;
         invoke %tmp.19 %tmp.20();
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_39_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_42_8_if_end:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 47 8 ]
-        %tmp.22 = getv ? :View;
-        %tmp.23 = getv function %tmp.22 :onUpdate;
-        %tmp.25 = lgetv %dc;
-        invoke %tmp.22 %tmp.23(%tmp.25);
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 46 12 ]
+        %tmp.21 = self;
+        %tmp.22 = getv function %tmp.21 :setSunset;
+        invoke %tmp.21 %tmp.22();
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_39_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_43_8_if_end:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 48 8 ]
+        %tmp.24 = getv ? :View;
+        %tmp.25 = getv function %tmp.24 :onUpdate;
+        %tmp.27 = lgetv %dc;
+        invoke %tmp.24 %tmp.25(%tmp.27);
 _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_36_40_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 53; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 54; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 57; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 58; ]
     function onExitSleep() as Void {
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 61; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 62; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 64; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 65; ]
     protected
     function setHoursMinutes() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 65 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 66 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_stop" ]
         %clockTime.1 = local;
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.1 %tmp.4;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 66 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 67 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_stop" ]
         %hour.2 = local;
         %tmp.5 = lgetv %clockTime.1;
         %tmp.6 = getv %tmp.5 :hour;
         lputv %hour.2 %tmp.6;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 67 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_stmt:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 68 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_8_if_stmt:
         %tmp.8 = getv ? :settings;
         %tmp.9 = getv %tmp.8 :is24Hour;
         %tmp.10 = not %tmp.9;
-        bf %tmp.10 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_32_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 68 12 ]
+        bf %tmp.10 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_32_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 69 12 ]
         %tmp.12 = lgetv %hour.2;
         %tmp.13 = 12;
         %tmp.14 = mod %tmp.12 %tmp.13;
         lputv %hour.2 %tmp.14;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 69 12 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_12_if_stmt:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 70 12 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_12_if_stmt:
         %tmp.16 = lgetv %hour.2;
         %tmp.17 = 00;
         %tmp.18 = eq %tmp.16 %tmp.17;
-        bf %tmp.18 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_12_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_12_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_28_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 70 16 ]
+        bf %tmp.18 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_12_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_12_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_28_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 71 16 ]
         %tmp.19 = 12;
         lputv %hour.2 %tmp.19;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_28_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_12_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_69_12_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_32_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_end:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 73 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_28_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_12_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_70_12_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_32_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_68_8_if_end:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 74 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_stop" ]
         %timeString.3 = local;
         %tmp.20 = getm $.Toybox.Lang;
         %tmp.21 = getv function %tmp.20 :format;
@@ -211,8 +215,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_end:
         %tmp.36 = aputv %tmp.35 1 %tmp.34;
         %tmp.37 = invoke %tmp.20 %tmp.21(%tmp.22, %tmp.36);
         lputv %timeString.3 %tmp.37;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 74 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 75 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_stop" ]
         %textArea.4 = local;
         %tmp.39 = getv ? :View;
         %tmp.40 = getv function %tmp.39 :findDrawableById;
@@ -220,26 +224,26 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_67_8_if_end:
         %tmp.42 = invoke %tmp.39 %tmp.40(%tmp.41);
         %tmp.43 = as %tmp.42 Text;
         lputv %textArea.4 %tmp.43;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 75 8 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 76 8 ]
         %tmp.44 = lgetv %textArea.4;
         %tmp.45 = getv function %tmp.44 :setText;
         %tmp.47 = lgetv %timeString.3;
         invoke %tmp.44 %tmp.45(%tmp.47);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_64_38_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_65_38_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 78; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 79; ]
     protected
     function setSeconds() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 79 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 80 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_stop" ]
         %clockTime.1 = local;
         %tmp.2 = getv ? :System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.1 %tmp.4;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 80 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 81 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_stop" ]
         %secondsString.2 = local;
         %tmp.5 = lgetv %clockTime.1;
         %tmp.6 = getv %tmp.5 :sec;
@@ -247,8 +251,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_start:
         %tmp.8 = "%02d";
         %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
         lputv %secondsString.2 %tmp.9;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 81 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 82 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_stop" ]
         %textArea.3 = local;
         %tmp.11 = getv ? :View;
         %tmp.12 = getv function %tmp.11 :findDrawableById;
@@ -256,25 +260,67 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_start:
         %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
         %tmp.15 = as %tmp.14 Text;
         lputv %textArea.3 %tmp.15;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 82 8 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 83 8 ]
         %tmp.16 = lgetv %textArea.3;
         %tmp.17 = getv function %tmp.16 :setText;
         %tmp.19 = lgetv %secondsString.2;
         invoke %tmp.16 %tmp.17(%tmp.19);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_78_33_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_79_33_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 85; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 86; ]
+    protected
+    function setConnected() {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_86_35_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 87 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_8_if_stmt:
+        %tmp.2 = getv ? :settings;
+        %tmp.3 = getv %tmp.2 :phoneConnected;
+        %tmp.4 = null;
+        %tmp.5 = ne %tmp.3 %tmp.4;
+        bf %tmp.5 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_45_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 88 12 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_12_if_stmt:
+        %tmp.7 = getv ? :settings;
+        %tmp.8 = getv %tmp.7 :phoneConnected;
+        bf %tmp.8 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_12_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_12_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_41_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 89 16 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_41_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_41_stop" ]
+        %textArea.1 = local;
+        %tmp.10 = getv ? :View;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "ConnnectedBT";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = as %tmp.13 Text;
+        lputv %textArea.1 %tmp.14;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 90 16 ]
+        %tmp.15 = lgetv %textArea.1;
+        %tmp.16 = getv function %tmp.15 :setText;
+        %tmp.17 = "B";
+        invoke %tmp.15 %tmp.16(%tmp.17);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_41_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_12_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_88_12_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_45_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_87_8_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_86_35_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 95; ]
     protected
     function setBattery() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 86 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 96 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_stop" ]
         %battery.1 = local;
         %tmp.2 = getv ? :stats;
         %tmp.3 = getv %tmp.2 :battery;
         lputv %battery.1 %tmp.3;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 87 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 97 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_stop" ]
         %textArea.2 = local;
         %tmp.5 = getv ? :View;
         %tmp.6 = getv function %tmp.5 :findDrawableById;
@@ -282,7 +328,7 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start:
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         %tmp.9 = as %tmp.8 Text;
         lputv %textArea.2 %tmp.9;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 88 5 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 98 5 ]
         %tmp.10 = lgetv %textArea.2;
         %tmp.11 = getv function %tmp.10 :setText;
         %tmp.12 = lgetv %battery.1;
@@ -292,8 +338,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start:
         %tmp.16 = "%";
         %tmp.17 = add %tmp.15 %tmp.16;
         invoke %tmp.10 %tmp.11(%tmp.17);
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 91 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 101 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_stop" ]
         %icon.3 = local;
         %tmp.19 = getv ? :View;
         %tmp.20 = getv function %tmp.19 :findDrawableById;
@@ -301,88 +347,88 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_start:
         %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
         %tmp.23 = as %tmp.22 Text;
         lputv %icon.3 %tmp.23;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 92 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_8_if_stmt:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 102 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_8_if_stmt:
         %tmp.25 = getv ? :stats;
         %tmp.26 = getv %tmp.25 :charging;
-        bf %tmp.26 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_8_if_false;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_29_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 93 12 ]
+        bf %tmp.26 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_8_if_false;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_29_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 103 12 ]
         %tmp.27 = lgetv %icon.3;
         %tmp.28 = getv function %tmp.27 :setText;
         %tmp.29 = "0";
         invoke %tmp.27 %tmp.28(%tmp.29);
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 94 12 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 104 12 ]
         %tmp.30 = lgetv %icon.3;
         %tmp.31 = getv function %tmp.30 :setColor;
         %tmp.32 = getm $.Toybox.Graphics;
         %tmp.33 = getv %tmp.32 :COLOR_GREEN;
         invoke %tmp.30 %tmp.31(%tmp.33);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_29_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_8_if_false:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 95 15 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_15_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_29_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_8_if_false:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 105 15 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_15_if_stmt:
         %tmp.35 = lgetv %battery.1;
         %tmp.36 = 50;
         %tmp.37 = gt %tmp.35 %tmp.36;
-        bf %tmp.37 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_15_if_false;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_15_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 96 11 ]
+        bf %tmp.37 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_15_if_false;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_15_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_33_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 106 11 ]
         %tmp.38 = lgetv %icon.3;
         %tmp.39 = getv function %tmp.38 :setText;
         %tmp.40 = "1";
         invoke %tmp.38 %tmp.39(%tmp.40);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_15_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_15_if_false:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 97 15 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_15_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_33_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_15_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_15_if_false:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 107 15 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_15_if_stmt:
         %tmp.42 = lgetv %battery.1;
         %tmp.43 = 5;
         %tmp.44 = gt %tmp.42 %tmp.43;
-        bf %tmp.44 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_15_if_false;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_15_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_32_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 98 11 ]
+        bf %tmp.44 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_15_if_false;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_15_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_32_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 108 11 ]
         %tmp.45 = lgetv %icon.3;
         %tmp.46 = getv function %tmp.45 :setText;
         %tmp.47 = "2";
         invoke %tmp.45 %tmp.46(%tmp.47);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_32_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_15_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_15_if_false:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_99_15_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 100 11 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_32_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_15_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_15_if_false:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_109_15_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 110 11 ]
         %tmp.48 = lgetv %icon.3;
         %tmp.49 = getv function %tmp.48 :setText;
         %tmp.50 = "3";
         invoke %tmp.48 %tmp.49(%tmp.50);
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 101 11 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 111 11 ]
         %tmp.51 = lgetv %icon.3;
         %tmp.52 = getv function %tmp.51 :setColor;
         %tmp.53 = getm $.Toybox.Graphics;
         %tmp.54 = getv %tmp.53 :COLOR_RED;
         invoke %tmp.51 %tmp.52(%tmp.54);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_99_15_stop:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_97_15_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_15_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_92_8_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_85_33_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_109_15_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_107_15_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_15_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_102_8_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_95_33_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 105; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 115; ]
     protected
     function setHeartRate() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 106 5 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 116 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_stop" ]
         %heartRate.1 = local;
         %tmp.1 = "";
         lputv %heartRate.1 %tmp.1;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 107 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 117 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_stop" ]
         %heartrateIterator.2 = local;
         %tmp.2 = getm $.Toybox.ActivityMonitor;
         %tmp.3 = getv function %tmp.2 :getHeartRateHistory;
@@ -390,40 +436,40 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_start:
         %tmp.5 = false;
         %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
         lputv %heartrateIterator.2 %tmp.6;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 108 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 118 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_stop" ]
         %currentHeartrate.3 = local;
         %tmp.7 = lgetv %heartrateIterator.2;
         %tmp.8 = getv function %tmp.7 :next;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = getv %tmp.9 :heartRate;
         lputv %currentHeartrate.3 %tmp.10;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 110 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_stmt:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 120 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_8_if_stmt:
         %tmp.12 = lgetv %currentHeartrate.3;
         %tmp.13 = getm $.Toybox.ActivityMonitor;
         %tmp.14 = getv %tmp.13 :INVALID_HR_SAMPLE;
         %tmp.15 = eq %tmp.12 %tmp.14;
-        bf %tmp.15 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_false;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_66_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 111 12 ]
+        bf %tmp.15 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_8_if_false;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_66_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 121 12 ]
         %tmp.16 = "--";
         lputv %heartRate.1 %tmp.16;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_66_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_false:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_112_15_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 113 12 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_66_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_8_if_false:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_122_15_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 123 12 ]
         %tmp.17 = lgetv %currentHeartrate.3;
         %tmp.18 = getv function %tmp.17 :format;
         %tmp.19 = "%d";
         %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
         lputv %heartRate.1 %tmp.20;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_112_15_stop:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_end:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 116 5 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_122_15_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_8_if_end:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 126 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_stop" ]
         %textArea.4 = local;
         %tmp.22 = getv ? :View;
         %tmp.23 = getv function %tmp.22 :findDrawableById;
@@ -431,19 +477,19 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_110_8_if_end:
         %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
         %tmp.26 = as %tmp.25 Text;
         lputv %textArea.4 %tmp.26;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 117 5 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 127 5 ]
         %tmp.27 = lgetv %textArea.4;
         %tmp.28 = getv function %tmp.27 :setText;
         %tmp.30 = lgetv %heartRate.1;
         invoke %tmp.27 %tmp.28(%tmp.30);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_105_35_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_115_35_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 120; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 130; ]
     protected
     function setDate() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 121 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 131 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_stop" ]
         %dateNumberString.1 = local;
         %tmp.1 = getm $.Toybox.Lang;
         %tmp.2 = getv function %tmp.1 :format;
@@ -455,8 +501,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start:
         %tmp.9 = aputv %tmp.8 0 %tmp.7;
         %tmp.10 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9);
         lputv %dateNumberString.1 %tmp.10;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 122 5 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 132 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_stop" ]
         %dateDayString.2 = local;
         %tmp.11 = getm $.Toybox.Lang;
         %tmp.12 = getv function %tmp.11 :format;
@@ -474,8 +520,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start:
         %tmp.25 = getv function %tmp.24 :toUpper;
         %tmp.26 = invoke %tmp.24 %tmp.25();
         lputv %dateDayString.2 %tmp.26;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 123 5 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 133 5 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_stop" ]
         %dateNumber.3 = local;
         %tmp.28 = getv ? :View;
         %tmp.29 = getv function %tmp.28 :findDrawableById;
@@ -483,13 +529,13 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start:
         %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
         %tmp.32 = as %tmp.31 Text;
         lputv %dateNumber.3 %tmp.32;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 124 5 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 134 5 ]
         %tmp.33 = lgetv %dateNumber.3;
         %tmp.34 = getv function %tmp.33 :setText;
         %tmp.36 = lgetv %dateNumberString.1;
         invoke %tmp.33 %tmp.34(%tmp.36);
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 125 8 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 135 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_stop" ]
         %textArea.4 = local;
         %tmp.38 = getv ? :View;
         %tmp.39 = getv function %tmp.38 :findDrawableById;
@@ -497,28 +543,28 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_start:
         %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
         %tmp.42 = as %tmp.41 Text;
         lputv %textArea.4 %tmp.42;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 126 5 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 136 5 ]
         %tmp.43 = lgetv %textArea.4;
         %tmp.44 = getv function %tmp.43 :setText;
         %tmp.46 = lgetv %dateDayString.2;
         invoke %tmp.43 %tmp.44(%tmp.46);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_120_30_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_30_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 129; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 139; ]
     protected
     function setTemperature() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_129_37_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 130 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_8_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_139_37_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 140 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_8_if_stmt:
         %tmp.2 = getv ? :currentConditions;
         %tmp.3 = getv %tmp.2 :temperature;
         %tmp.4 = null;
         %tmp.5 = ne %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_50_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 131 9 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_50_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_50_stop" ]
+        bf %tmp.5 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_50_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 141 9 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_50_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_50_stop" ]
         %textArea.1 = local;
         %tmp.7 = getv ? :View;
         %tmp.8 = getv function %tmp.7 :findDrawableById;
@@ -526,7 +572,7 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_50_start:
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         %tmp.11 = as %tmp.10 Text;
         lputv %textArea.1 %tmp.11;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 132 12 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 142 12 ]
         %tmp.12 = lgetv %textArea.1;
         %tmp.13 = getv function %tmp.12 :setText;
         %tmp.15 = getv ? :currentConditions;
@@ -535,15 +581,15 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_50_start:
         %tmp.18 = "%d";
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         invoke %tmp.12 %tmp.13(%tmp.19);
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 135 12 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_12_if_stmt:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_16_begin:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 145 12 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_12_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_16_begin:
         %tmp.21 = getv ? :settings;
         %tmp.22 = null;
         %tmp.23 = ne %tmp.21 %tmp.22;
         %tmp.24 = dup %tmp.23;
-        bf %tmp.24 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_36_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_36_true:
+        bf %tmp.24 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_36_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_36_true:
         %tmp.26 = getv ? :settings;
         %tmp.27 = as %tmp.26 { (!Null) };
         %tmp.28 = getv %tmp.27 :temperatureUnits;
@@ -551,67 +597,67 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_36_true:
         %tmp.30 = ne %tmp.28 %tmp.29;
         %tmp.31 = and %tmp.23 %tmp.30;
         push %tmp.31;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_36_end:
-        %tmp.32 = phi [%tmp.24 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_16_begin] [%tmp.31 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_36_true] [%tmp.32 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_36_end];
-        bf %tmp.32 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_12_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_12_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_71_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 136 16 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_16_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_36_end:
+        %tmp.32 = phi [%tmp.24 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_16_begin] [%tmp.31 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_36_true] [%tmp.32 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_36_end];
+        bf %tmp.32 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_12_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_12_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_71_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 146 16 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_stmt:
         %tmp.34 = getv ? :settings;
         %tmp.35 = as %tmp.34 { (!Null) };
-        %tmp.36 = getv %tmp.35 :temperatureUnits;
-        %tmp.37 = "UNIT_STATUTE";
+        %tmp.36 = getv %tmp.35 :UNIT_STATUTE;
+        %tmp.37 = 1;
         %tmp.38 = eq %tmp.36 %tmp.37;
-        bf %tmp.38 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_16_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_16_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_65_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 137 20 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_65_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_65_stop" ]
-        %temperatureIcon.2 = local;
+        bf %tmp.38 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 147 20 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_stop" ]
+        %temperatureUnit.2 = local;
         %tmp.40 = getv ? :View;
         %tmp.41 = getv function %tmp.40 :findDrawableById;
         %tmp.42 = "TemperatureUnit";
         %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
         %tmp.44 = as %tmp.43 Text;
-        lputv %temperatureIcon.2 %tmp.44;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 138 20 ]
-        %tmp.45 = lgetv %temperatureIcon.2;
+        lputv %temperatureUnit.2 %tmp.44;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 148 20 ]
+        %tmp.45 = lgetv %temperatureUnit.2;
         %tmp.46 = getv function %tmp.45 :setText;
         %tmp.47 = "ºF";
         invoke %tmp.45 %tmp.46(%tmp.47);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_65_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_16_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_136_16_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_71_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_12_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_135_12_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_50_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_130_8_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_129_37_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_71_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_12_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_12_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_50_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_140_8_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_139_37_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 144; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 154; ]
     protected
     function setPrecipitationChance() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_144_45_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 145 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_8_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_154_45_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 155 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_8_if_stmt:
         %tmp.2 = getv ? :currentConditions;
         %tmp.3 = getv %tmp.2 :precipitationChance;
         %tmp.4 = null;
         %tmp.5 = ne %tmp.3 %tmp.4;
-        bf %tmp.5 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 146 12 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_stop" ]
+        bf %tmp.5 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_59_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 156 12 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_59_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_59_stop" ]
         %chance.1 = local;
         %tmp.7 = getv ? :currentConditions;
         %tmp.8 = getv %tmp.7 :precipitationChance;
         lputv %chance.1 %tmp.8;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 147 12 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 157 12 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_59_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_59_stop" ]
         %textArea.2 = local;
         %tmp.10 = getv ? :View;
         %tmp.11 = getv function %tmp.10 :findDrawableById;
@@ -619,7 +665,7 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_start:
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         %tmp.14 = as %tmp.13 Text;
         lputv %textArea.2 %tmp.14;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 148 12 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 158 12 ]
         %tmp.15 = lgetv %textArea.2;
         %tmp.16 = getv function %tmp.15 :setText;
         %tmp.17 = lgetv %chance.1;
@@ -629,38 +675,38 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_start:
         %tmp.21 = "%";
         %tmp.22 = add %tmp.20 %tmp.21;
         invoke %tmp.15 %tmp.16(%tmp.22);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_59_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_8_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_144_45_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_59_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_155_8_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_154_45_stop:
     }
-    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 152; ]
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 162; ]
     protected
     function setSunset() {
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_152_32_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 153 8 ]
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_8_if_stmt:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_12_begin:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_162_32_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 163 8 ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_8_if_stmt:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_12_begin:
         %tmp.2 = getv ? :currentConditions;
         %tmp.3 = getv %tmp.2 :observationLocationPosition;
         %tmp.4 = null;
         %tmp.5 = ne %tmp.3 %tmp.4;
         %tmp.6 = dup %tmp.5;
-        bf %tmp.6 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_69_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_69_true:
+        bf %tmp.6 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_69_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_69_true:
         %tmp.8 = getv ? :currentConditions;
         %tmp.9 = getv %tmp.8 :observationTime;
         %tmp.10 = null;
         %tmp.11 = ne %tmp.9 %tmp.10;
         %tmp.12 = and %tmp.5 %tmp.11;
         push %tmp.12;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_69_end:
-        %tmp.13 = phi [%tmp.6 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_12_begin] [%tmp.12 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_69_true] [%tmp.13 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_69_end];
-        bf %tmp.13 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_8_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start:
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 154 12 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_stop" ]
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_69_end:
+        %tmp.13 = phi [%tmp.6 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_12_begin] [%tmp.12 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_69_true] [%tmp.13 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_69_end];
+        bf %tmp.13 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_8_if_true:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 164 12 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_stop" ]
         %sunset.1 = local;
         %tmp.14 = getm $.Toybox.Weather;
         %tmp.15 = getv function %tmp.14 :getSunset;
@@ -670,8 +716,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start
         %tmp.21 = getv %tmp.20 :observationTime;
         %tmp.22 = invoke %tmp.14 %tmp.15(%tmp.18, %tmp.21);
         lputv %sunset.1 %tmp.22;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 155 12 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 165 12 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_stop" ]
         %info.2 = local;
         %tmp.23 = getm $.Toybox.Time.Gregorian;
         %tmp.24 = getv function %tmp.23 :utcInfo;
@@ -680,8 +726,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start
         %tmp.29 = getv %tmp.28 :FORMAT_SHORT;
         %tmp.30 = invoke %tmp.23 %tmp.24(%tmp.26, %tmp.29);
         lputv %info.2 %tmp.30;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 156 12 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 166 12 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_stop" ]
         %time.3 = local;
         %tmp.31 = getm $.Toybox.Lang;
         %tmp.32 = getv function %tmp.31 :format;
@@ -703,8 +749,8 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start
         %tmp.48 = aputv %tmp.47 1 %tmp.46;
         %tmp.49 = invoke %tmp.31 %tmp.32(%tmp.33, %tmp.48);
         lputv %time.3 %tmp.49;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 157 12 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_stop" ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 167 12 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_stop" ]
         %textArea.4 = local;
         %tmp.51 = getv ? :View;
         %tmp.52 = getv function %tmp.51 :findDrawableById;
@@ -712,15 +758,15 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_start
         %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
         %tmp.55 = as %tmp.54 Text;
         lputv %textArea.4 %tmp.55;
-[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 158 12 ]
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 168 12 ]
         %tmp.56 = lgetv %textArea.4;
         %tmp.57 = getv function %tmp.56 :setText;
         %tmp.59 = lgetv %time.3;
         invoke %tmp.56 %tmp.57(%tmp.59);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_112_stop:
-        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_8_if_end;
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_153_8_if_end:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_152_32_stop:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_112_stop:
+        goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_8_if_end;
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_163_8_if_end:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_162_32_stop:
     }
 }
 [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc"; @line = 1; ]
