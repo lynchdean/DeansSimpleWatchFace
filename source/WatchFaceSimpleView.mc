@@ -120,8 +120,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             heartRate = currentHeartrate.format("%d");
         }	
 
-	    var heartrateDisplay = View.findDrawableById("HeartRateText") as Text;      
-	    heartrateDisplay.setText(heartRate);
+	    var textArea = View.findDrawableById("HeartRateText") as Text;      
+	    textArea.setText(heartRate);
     }
 
     hidden function setDate() {        

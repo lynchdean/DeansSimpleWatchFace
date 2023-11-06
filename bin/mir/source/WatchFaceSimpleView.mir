@@ -410,15 +410,15 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_119_15_stop:
 _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_117_8_if_end:
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 123 5 ]
         [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_112_35_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_112_35_stop" ]
-        %heartrateDisplay.4 = local;
+        %textArea.4 = local;
         %tmp.22 = getv ? :View;
         %tmp.23 = getv function %tmp.22 :findDrawableById;
         %tmp.24 = "HeartRateText";
         %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
         %tmp.26 = as %tmp.25 Text;
-        lputv %heartrateDisplay.4 %tmp.26;
+        lputv %textArea.4 %tmp.26;
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 124 5 ]
-        %tmp.27 = lgetv %heartrateDisplay.4;
+        %tmp.27 = lgetv %textArea.4;
         %tmp.28 = getv function %tmp.27 :setText;
         %tmp.30 = lgetv %heartRate.1;
         invoke %tmp.27 %tmp.28(%tmp.30);

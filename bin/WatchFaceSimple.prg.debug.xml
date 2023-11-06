@@ -123,24 +123,23 @@
         <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="26" lineNum="44" parent="globals/Rez/Drawables/shapes" pc="268437939" symbol="draw"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="26" lineNum="45" parent="globals/Rez/Drawables/shapes" pc="268437971" symbol="draw"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="26" lineNum="46" parent="globals/Rez/Drawables/shapes" pc="268437993" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="60" parent="globals/Rez/Layouts" pc="268438026" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="61" parent="globals/Rez/Layouts" pc="268438038" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="62" parent="globals/Rez/Layouts" pc="268438079" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="63" parent="globals/Rez/Layouts" pc="268438120" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="65" parent="globals/Rez/Layouts" pc="268438285" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="67" parent="globals/Rez/Layouts" pc="268438450" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="69" parent="globals/Rez/Layouts" pc="268438615" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="71" parent="globals/Rez/Layouts" pc="268438780" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="73" parent="globals/Rez/Layouts" pc="268438945" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="75" parent="globals/Rez/Layouts" pc="268439107" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="77" parent="globals/Rez/Layouts" pc="268439269" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="79" parent="globals/Rez/Layouts" pc="268439434" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="81" parent="globals/Rez/Layouts" pc="268439599" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="83" parent="globals/Rez/Layouts" pc="268439761" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="85" parent="globals/Rez/Layouts" pc="268439926" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="87" parent="globals/Rez/Layouts" pc="268440091" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="89" parent="globals/Rez/Layouts" pc="268440256" symbol="WatchFace"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="91" parent="globals/Rez/Layouts" pc="268440418" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="59" parent="globals/Rez/Layouts" pc="268438026" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="60" parent="globals/Rez/Layouts" pc="268438038" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="61" parent="globals/Rez/Layouts" pc="268438079" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="63" parent="globals/Rez/Layouts" pc="268438244" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="65" parent="globals/Rez/Layouts" pc="268438409" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="67" parent="globals/Rez/Layouts" pc="268438574" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="69" parent="globals/Rez/Layouts" pc="268438739" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="71" parent="globals/Rez/Layouts" pc="268438904" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="73" parent="globals/Rez/Layouts" pc="268439066" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="75" parent="globals/Rez/Layouts" pc="268439231" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="77" parent="globals/Rez/Layouts" pc="268439396" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="79" parent="globals/Rez/Layouts" pc="268439561" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="81" parent="globals/Rez/Layouts" pc="268439723" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="83" parent="globals/Rez/Layouts" pc="268439888" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="85" parent="globals/Rez/Layouts" pc="268440053" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="87" parent="globals/Rez/Layouts" pc="268440218" symbol="WatchFace"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="89" parent="globals/Rez/Layouts" pc="268440380" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -150,7 +149,7 @@
         <entry field="true" id="13" symbol="currentConditions"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="29" symbol="AppName"/>
+        <entry field="true" id="28" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry field="true" id="14" symbol="date"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
@@ -207,7 +206,6 @@
         <entry id="15" method="true" symbol="setBattery"/>
         <entry id="8388642" module="true" symbol="Position"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-        <entry field="true" id="28" symbol="OpenSansBold"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="21" method="true" symbol="setSunset"/>
         <entry id="8388635" module="true" symbol="Application"/>
@@ -233,7 +231,7 @@
         <entry endPc="268436563" name="heartRate" stackId="1" startPc="268436437"/>
         <entry endPc="268436563" name="heartrateIterator" stackId="2" startPc="268436437"/>
         <entry endPc="268436563" name="currentHeartrate" stackId="3" startPc="268436437"/>
-        <entry endPc="268436563" name="heartrateDisplay" stackId="4" startPc="268436437"/>
+        <entry endPc="268436563" name="textArea" stackId="4" startPc="268436437"/>
         <entry endPc="268436780" name="dateNumberString" stackId="1" startPc="268436569"/>
         <entry endPc="268436780" name="dateDayString" stackId="2" startPc="268436569"/>
         <entry endPc="268436780" name="dateNumber" stackId="3" startPc="268436569"/>
@@ -242,28 +240,26 @@
         <entry endPc="268436975" name="temperatureIcon" stackId="2" startPc="268436931"/>
         <entry arg="true" endPc="268437263" name="dc" stackId="1" startPc="268437125"/>
         <entry arg="true" endPc="268438025" name="dc" stackId="1" startPc="268437399"/>
-        <entry arg="true" endPc="268440564" name="dc" stackId="1" startPc="268438026"/>
-        <entry endPc="268440564" name="local_Rez_Fonts_OpenSansBold" stackId="2" startPc="268438038"/>
-        <entry endPc="268440564" name="local_Rez_Fonts_Icons" stackId="3" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_RainIcon" stackId="7" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_SunsetText" stackId="8" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_SunsetIcon" stackId="9" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_HoursMinutesText" stackId="10" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_SecondsText" stackId="11" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_HeartRateText" stackId="12" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_HeartRateIcon" stackId="13" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_DateDayText" stackId="14" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_DateNumberText" stackId="15" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_BatteryText" stackId="16" startPc="268438038"/>
-        <entry endPc="268440564" name="rez_cmp_local_textarea_BatteryIcon" stackId="17" startPc="268438038"/>
+        <entry arg="true" endPc="268440526" name="dc" stackId="1" startPc="268438026"/>
+        <entry endPc="268440526" name="local_Rez_Fonts_Icons" stackId="2" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_TemperatureText" stackId="3" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_TemperatureUnit" stackId="4" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_RainText" stackId="5" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_RainIcon" stackId="6" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_SunsetText" stackId="7" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_SunsetIcon" stackId="8" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_HoursMinutesText" stackId="9" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_SecondsText" stackId="10" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_HeartRateText" stackId="11" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_HeartRateIcon" stackId="12" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_DateDayText" stackId="13" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_DateNumberText" stackId="14" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_BatteryText" stackId="15" startPc="268438038"/>
+        <entry endPc="268440526" name="rez_cmp_local_textarea_BatteryIcon" stackId="16" startPc="268438038"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="Icons"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OpenSansBold"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
     <dataEntryOffsetMappings>
@@ -275,9 +271,9 @@
         <dataEntry label="globals/Rez/Layouts" offset="546" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/Menus" offset="585" parentId="Rez" symbolId="Menus" type="module"/>
         <dataEntry label="globals/Rez/Fonts" offset="616" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="663" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="702" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Drawables/shapes" offset="733" parentId="Drawables" symbolId="shapes" type="class"/>
+        <dataEntry label="globals/Rez/Strings" offset="655" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="694" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Drawables/shapes" offset="725" parentId="Drawables" symbolId="shapes" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -381,7 +377,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440564" name="WatchFace" parent="Layouts" startPc="268438026">
+        <functionEntry accessMode="public" endPc="268440526" name="WatchFace" parent="Layouts" startPc="268438026">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
