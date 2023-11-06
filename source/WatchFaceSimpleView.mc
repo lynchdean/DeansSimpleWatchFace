@@ -90,23 +90,16 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         // Set battery icon
         var icon = View.findDrawableById("BatteryIcon") as Text;
         if (stats.charging)  {
-            // Set icon to charging 
-            // icon.setText("CHRG");
+            icon.setText("0");
             icon.setColor(Graphics.COLOR_GREEN);
-        } else if (battery > 75) {
-            // display as full
-            // icon.setText("FULL");
         } else if (battery > 50) {
-            // display as 3/4
-            // icon.setText("3/4");
-        } else if (battery > 25) {
-            // display as 1/2
-            // icon.setText("1/2");
+           icon.setText("1");
+        } else if (battery > 5) {
+           icon.setText("2");
         } else {
-            // display as 1/4 and change to red
-            // icon.setText("1/4");
-            icon.setColor(Graphics.COLOR_RED);
-        } 
+           icon.setText("3");
+           icon.setColor(Graphics.COLOR_RED);
+        }
     }
 
     hidden function setHeartRate() {
