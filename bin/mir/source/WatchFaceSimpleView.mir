@@ -606,27 +606,29 @@ _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_71_start:
 _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_stmt:
         %tmp.34 = getv ? :settings;
         %tmp.35 = as %tmp.34 { (!Null) };
-        %tmp.36 = getv %tmp.35 :UNIT_STATUTE;
-        %tmp.37 = 1;
-        %tmp.38 = eq %tmp.36 %tmp.37;
-        bf %tmp.38 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end;
+        %tmp.36 = getv %tmp.35 :temperatureUnits;
+        %tmp.38 = getv ? :settings;
+        %tmp.39 = as %tmp.38 { (!Null) };
+        %tmp.40 = getv %tmp.39 :UNIT_STATUTE;
+        %tmp.41 = eq %tmp.36 %tmp.40;
+        bf %tmp.41 @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end;
 _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_true:
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_start:
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_72_start:
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 147 20 ]
-        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_stop" ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_72_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_72_stop" ]
         %temperatureUnit.2 = local;
-        %tmp.40 = getv ? :View;
-        %tmp.41 = getv function %tmp.40 :findDrawableById;
-        %tmp.42 = "TemperatureUnit";
-        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
-        %tmp.44 = as %tmp.43 Text;
-        lputv %temperatureUnit.2 %tmp.44;
+        %tmp.43 = getv ? :View;
+        %tmp.44 = getv function %tmp.43 :findDrawableById;
+        %tmp.45 = "TemperatureUnit";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        %tmp.47 = as %tmp.46 Text;
+        lputv %temperatureUnit.2 %tmp.47;
 [ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" 148 20 ]
-        %tmp.45 = lgetv %temperatureUnit.2;
-        %tmp.46 = getv function %tmp.45 :setText;
-        %tmp.47 = "ºF";
-        invoke %tmp.45 %tmp.46(%tmp.47);
-_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_48_stop:
+        %tmp.48 = lgetv %temperatureUnit.2;
+        %tmp.49 = getv function %tmp.48 :setText;
+        %tmp.50 = "ºF";
+        invoke %tmp.48 %tmp.49(%tmp.50);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_72_stop:
         goto @_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end;
 _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_146_16_if_end:
 _Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleView_mc_145_71_stop:

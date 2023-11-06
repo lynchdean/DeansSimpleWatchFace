@@ -143,7 +143,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
             // Change unit to fahrenheit if statute defined in system settings
             if (settings != null && settings.temperatureUnits != null) {
-                if (settings.UNIT_STATUTE == 1) {
+                if (settings.temperatureUnits == settings.UNIT_STATUTE) {
                     var temperatureUnit = View.findDrawableById("TemperatureUnit") as Text;
                     temperatureUnit.setText("ºF");
                 }
