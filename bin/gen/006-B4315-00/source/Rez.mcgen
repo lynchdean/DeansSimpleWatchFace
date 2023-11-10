@@ -50,7 +50,6 @@ module Rez {
 
     module Fonts {
         (:initialized) var Icons45 as Symbol;
-        (:initialized) var Icons32 as Symbol;
         (:initialized) var Icons24 as Symbol;
     } // Fonts
 

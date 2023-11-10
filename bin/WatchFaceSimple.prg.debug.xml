@@ -4,7 +4,7 @@
     <pcToLineNum>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="3" lineNum="9" parent="globals/WatchFaceSimpleView" pc="268435510" symbol="&lt;init&gt;"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="5" lineNum="75" parent="globals/WatchFaceSimpleView" pc="268435529" symbol="setHoursMinutes"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="5" lineNum="76" parent="globals/WatchFaceSimpleView" pc="268435533" symbol="setHoursMinutes"/>
@@ -107,71 +107,71 @@
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="23" lineNum="7" parent="globals/WatchFaceSimpleApp" pc="268437579" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="23" lineNum="8" parent="globals/WatchFaceSimpleApp" pc="268437581" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="24" lineNum="16" parent="globals/WatchFaceSimpleApp" pc="268437600" symbol="onStop"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="25" lineNum="11" parent="globals/Rez/Drawables/shapes" pc="268437603" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="26" lineNum="13" parent="globals/Rez/Drawables/shapes" pc="268437622" symbol="initialize"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="26" lineNum="14" parent="globals/Rez/Drawables/shapes" pc="268437624" symbol="initialize"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="17" parent="globals/Rez/Drawables/shapes" pc="268437649" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="18" parent="globals/Rez/Drawables/shapes" pc="268437651" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="19" parent="globals/Rez/Drawables/shapes" pc="268437662" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="20" parent="globals/Rez/Drawables/shapes" pc="268437674" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="25" parent="globals/Rez/Drawables/shapes" pc="268437681" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="26" parent="globals/Rez/Drawables/shapes" pc="268437703" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="27" parent="globals/Rez/Drawables/shapes" pc="268437735" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="28" parent="globals/Rez/Drawables/shapes" pc="268437757" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="29" parent="globals/Rez/Drawables/shapes" pc="268437789" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="30" parent="globals/Rez/Drawables/shapes" pc="268437811" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="31" parent="globals/Rez/Drawables/shapes" pc="268437843" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="32" parent="globals/Rez/Drawables/shapes" pc="268437865" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="33" parent="globals/Rez/Drawables/shapes" pc="268437897" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="34" parent="globals/Rez/Drawables/shapes" pc="268437919" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="35" parent="globals/Rez/Drawables/shapes" pc="268437951" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="36" parent="globals/Rez/Drawables/shapes" pc="268437973" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="37" parent="globals/Rez/Drawables/shapes" pc="268438005" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="38" parent="globals/Rez/Drawables/shapes" pc="268438027" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="39" parent="globals/Rez/Drawables/shapes" pc="268438059" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="40" parent="globals/Rez/Drawables/shapes" pc="268438081" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="41" parent="globals/Rez/Drawables/shapes" pc="268438113" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="42" parent="globals/Rez/Drawables/shapes" pc="268438135" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="43" parent="globals/Rez/Drawables/shapes" pc="268438167" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="44" parent="globals/Rez/Drawables/shapes" pc="268438189" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="45" parent="globals/Rez/Drawables/shapes" pc="268438221" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="27" lineNum="46" parent="globals/Rez/Drawables/shapes" pc="268438243" symbol="draw"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="95" parent="globals/Rez/Layouts" pc="268438276" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="96" parent="globals/Rez/Layouts" pc="268438288" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="97" parent="globals/Rez/Layouts" pc="268438329" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="99" parent="globals/Rez/Layouts" pc="268438494" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="101" parent="globals/Rez/Layouts" pc="268438659" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="103" parent="globals/Rez/Layouts" pc="268438824" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="105" parent="globals/Rez/Layouts" pc="268438986" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="107" parent="globals/Rez/Layouts" pc="268439151" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="109" parent="globals/Rez/Layouts" pc="268439313" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="111" parent="globals/Rez/Layouts" pc="268439478" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="113" parent="globals/Rez/Layouts" pc="268439643" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="115" parent="globals/Rez/Layouts" pc="268439805" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="117" parent="globals/Rez/Layouts" pc="268439970" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="119" parent="globals/Rez/Layouts" pc="268440132" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="121" parent="globals/Rez/Layouts" pc="268440297" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268440462" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="125" parent="globals/Rez/Layouts" pc="268440627" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="28" lineNum="127" parent="globals/Rez/Layouts" pc="268440789" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="60" parent="globals/Rez/Layouts" pc="268440946" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="61" parent="globals/Rez/Layouts" pc="268440958" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="62" parent="globals/Rez/Layouts" pc="268440999" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="64" parent="globals/Rez/Layouts" pc="268441164" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="66" parent="globals/Rez/Layouts" pc="268441329" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="68" parent="globals/Rez/Layouts" pc="268441494" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="70" parent="globals/Rez/Layouts" pc="268441656" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="72" parent="globals/Rez/Layouts" pc="268441821" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="74" parent="globals/Rez/Layouts" pc="268441983" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="76" parent="globals/Rez/Layouts" pc="268442148" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="78" parent="globals/Rez/Layouts" pc="268442313" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="80" parent="globals/Rez/Layouts" pc="268442475" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="82" parent="globals/Rez/Layouts" pc="268442640" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="84" parent="globals/Rez/Layouts" pc="268442802" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="86" parent="globals/Rez/Layouts" pc="268442967" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="88" parent="globals/Rez/Layouts" pc="268443132" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="90" parent="globals/Rez/Layouts" pc="268443297" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4024-00/source/Rez.mcgen" id="29" lineNum="92" parent="globals/Rez/Layouts" pc="268443459" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="25" lineNum="11" parent="globals/Rez/Drawables/shapes" pc="268437603" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="26" lineNum="13" parent="globals/Rez/Drawables/shapes" pc="268437622" symbol="initialize"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="26" lineNum="14" parent="globals/Rez/Drawables/shapes" pc="268437624" symbol="initialize"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="17" parent="globals/Rez/Drawables/shapes" pc="268437649" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="18" parent="globals/Rez/Drawables/shapes" pc="268437651" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="19" parent="globals/Rez/Drawables/shapes" pc="268437662" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="20" parent="globals/Rez/Drawables/shapes" pc="268437674" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="25" parent="globals/Rez/Drawables/shapes" pc="268437681" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="26" parent="globals/Rez/Drawables/shapes" pc="268437703" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="27" parent="globals/Rez/Drawables/shapes" pc="268437735" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="28" parent="globals/Rez/Drawables/shapes" pc="268437757" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="29" parent="globals/Rez/Drawables/shapes" pc="268437789" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="30" parent="globals/Rez/Drawables/shapes" pc="268437811" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="31" parent="globals/Rez/Drawables/shapes" pc="268437843" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="32" parent="globals/Rez/Drawables/shapes" pc="268437865" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="33" parent="globals/Rez/Drawables/shapes" pc="268437897" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="34" parent="globals/Rez/Drawables/shapes" pc="268437919" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="35" parent="globals/Rez/Drawables/shapes" pc="268437951" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="36" parent="globals/Rez/Drawables/shapes" pc="268437973" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="37" parent="globals/Rez/Drawables/shapes" pc="268438005" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="38" parent="globals/Rez/Drawables/shapes" pc="268438027" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="39" parent="globals/Rez/Drawables/shapes" pc="268438059" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="40" parent="globals/Rez/Drawables/shapes" pc="268438081" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="41" parent="globals/Rez/Drawables/shapes" pc="268438113" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="42" parent="globals/Rez/Drawables/shapes" pc="268438135" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="43" parent="globals/Rez/Drawables/shapes" pc="268438167" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="44" parent="globals/Rez/Drawables/shapes" pc="268438189" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="45" parent="globals/Rez/Drawables/shapes" pc="268438221" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="27" lineNum="46" parent="globals/Rez/Drawables/shapes" pc="268438243" symbol="draw"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="95" parent="globals/Rez/Layouts" pc="268438276" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="96" parent="globals/Rez/Layouts" pc="268438288" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="97" parent="globals/Rez/Layouts" pc="268438329" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="99" parent="globals/Rez/Layouts" pc="268438494" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="101" parent="globals/Rez/Layouts" pc="268438659" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="103" parent="globals/Rez/Layouts" pc="268438824" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="105" parent="globals/Rez/Layouts" pc="268438986" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="107" parent="globals/Rez/Layouts" pc="268439151" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="109" parent="globals/Rez/Layouts" pc="268439313" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="111" parent="globals/Rez/Layouts" pc="268439478" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="113" parent="globals/Rez/Layouts" pc="268439643" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="115" parent="globals/Rez/Layouts" pc="268439805" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="117" parent="globals/Rez/Layouts" pc="268439970" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="119" parent="globals/Rez/Layouts" pc="268440132" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="121" parent="globals/Rez/Layouts" pc="268440297" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="123" parent="globals/Rez/Layouts" pc="268440462" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="125" parent="globals/Rez/Layouts" pc="268440627" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="28" lineNum="127" parent="globals/Rez/Layouts" pc="268440789" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="60" parent="globals/Rez/Layouts" pc="268440946" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="61" parent="globals/Rez/Layouts" pc="268440958" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="62" parent="globals/Rez/Layouts" pc="268440999" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="64" parent="globals/Rez/Layouts" pc="268441164" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="66" parent="globals/Rez/Layouts" pc="268441329" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="68" parent="globals/Rez/Layouts" pc="268441494" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="70" parent="globals/Rez/Layouts" pc="268441656" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="72" parent="globals/Rez/Layouts" pc="268441821" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="74" parent="globals/Rez/Layouts" pc="268441983" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="76" parent="globals/Rez/Layouts" pc="268442148" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="78" parent="globals/Rez/Layouts" pc="268442313" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="80" parent="globals/Rez/Layouts" pc="268442475" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="82" parent="globals/Rez/Layouts" pc="268442640" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="84" parent="globals/Rez/Layouts" pc="268442802" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="86" parent="globals/Rez/Layouts" pc="268442967" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="88" parent="globals/Rez/Layouts" pc="268443132" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="90" parent="globals/Rez/Layouts" pc="268443297" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="29" lineNum="92" parent="globals/Rez/Layouts" pc="268443459" symbol="WatchFace454"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
