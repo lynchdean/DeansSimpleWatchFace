@@ -23,7 +23,17 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.WatchFace(dc));
+        var screenHeight = settings.screenHeight;
+
+        if (screenHeight != null) {
+            if (screenHeight == 454) {
+                setLayout(Rez.Layouts.WatchFace454(dc));
+            } else {
+                // Default to 260x260
+                setLayout(Rez.Layouts.WatchFace260(dc));
+
+            }
+        }
     }
 
     // Called when this View is brought to the foreground. Restore

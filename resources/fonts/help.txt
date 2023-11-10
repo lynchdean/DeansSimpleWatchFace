@@ -1,4 +1,4 @@
-for icon font:
+For icon font:
 0 = Battery Charging
 1 = Battery Full
 2 = Battery Half

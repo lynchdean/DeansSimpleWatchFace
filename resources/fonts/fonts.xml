@@ -1,3 +1,4 @@
 <fonts>
-  <font id="Icons" filename="icons.fnt" antialias="true" />
+  <font id="Icons45" filename="icons_45.fnt" antialias="true" />
+  <font id="Icons24" filename="icons_24.fnt" antialias="true" />
 </fonts>
