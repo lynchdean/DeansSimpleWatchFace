@@ -5,8 +5,13 @@
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
     -->
-    <iq:application id="d22da087-490c-4ab6-b762-6e7a83bab1c9" type="watchface" name="@Strings.AppName" entry="WatchFaceSimpleApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.1.0">
+    <!-- For Beta version: -->
+    <iq:application id="9cd56f03-0aa2-4bec-ad2a-00dd80ceccff" type="watchface" name="@Strings.AppName" entry="WatchFaceSimpleApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.1.0">
+    <!-- For Live Version -->
+    <!-- <iq:application id="d22da087-490c-4ab6-b762-6e7a83bab1c9" type="watchface" name="@Strings.AppName" entry="WatchFaceSimpleApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="4.1.0"> -->
         <!--
+            
+            id for beta version: 9cd56f03-0aa2-4bec-ad2a-00dd80ceccff
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
             "Monkey C: Set Products by Product Category" - Lets you add all products
