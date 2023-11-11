@@ -19,8 +19,8 @@
     <text-area id="HeartRateText" text="---" x="20%" y="70%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
     <text-area id="HeartRateIcon" text="H" x="20%" y="80%" font="@Fonts.Icons24" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
     <!-- Bottom Middle Area  -->
-    <text-area id="DateDayText" text="DDD" x="40%" y="70%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
-    <text-area id="DateNumberText" text="DD" x="40%" y="80%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="DateDayText" text="DDD" x="40%" y="70%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
+    <text-area id="DateNumberText" text="DD" x="40%" y="80%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
     <!-- Bottom Right Area  -->
     <text-area id="BatteryText" text="--%" x="60%" y="70%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
     <text-area id="BatteryIcon" text="1" x="60%" y="80%" font="@Fonts.Icons24" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>

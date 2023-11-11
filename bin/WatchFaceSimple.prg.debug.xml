@@ -318,7 +318,7 @@
         <entry arg="true" endPc="268438116" name="dc" stackId="1" startPc="268437954"/>
         <entry arg="true" endPc="268440966" name="dc" stackId="1" startPc="268438259"/>
         <entry endPc="268440966" name="local_Rez_Fonts_Icons24" stackId="2" startPc="268438271"/>
-        <entry endPc="268440966" name="rez_cmp_local_custom_drawable_89617751921547646919" stackId="3" startPc="268438271"/>
+        <entry endPc="268440966" name="rez_cmp_local_custom_drawable_17327714077256260851" stackId="3" startPc="268438271"/>
         <entry endPc="268440966" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268438271"/>
         <entry endPc="268440966" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268438271"/>
         <entry endPc="268440966" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268438271"/>
@@ -336,7 +336,7 @@
         <entry endPc="268440966" name="rez_cmp_local_textarea_BatteryIcon" stackId="18" startPc="268438271"/>
         <entry arg="true" endPc="268443674" name="dc" stackId="1" startPc="268440967"/>
         <entry endPc="268443674" name="local_Rez_Fonts_Icons45" stackId="2" startPc="268440979"/>
-        <entry endPc="268443674" name="rez_cmp_local_custom_drawable_18378574801100623405" stackId="3" startPc="268440979"/>
+        <entry endPc="268443674" name="rez_cmp_local_custom_drawable_10544951741338414511" stackId="3" startPc="268440979"/>
         <entry endPc="268443674" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268440979"/>
         <entry endPc="268443674" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268440979"/>
         <entry endPc="268443674" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268440979"/>
