@@ -4,6 +4,8 @@ import Toybox.WatchUi;
 
 class WatchFaceSimpleApp extends Application.AppBase {
 
+    var view;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -18,9 +20,15 @@ class WatchFaceSimpleApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new WatchFaceSimpleView() ] as Array<Views or InputDelegates>;
+        view = new WatchFaceSimpleView();
+        return [ view ] as Array<Views or InputDelegates>;
     }
 
+    // New app settings have been received so trigger a UI update
+    function onSettingsChanged() as Void {
+        view.handleSettingsUpdate();
+        WatchUi.requestUpdate();
+    }
 }
 
 function getApp() as WatchFaceSimpleApp {

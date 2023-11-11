@@ -1,0 +1,62 @@
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 5; ]
+import Toybox.Application.Properties;
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 7; ]
+class Background extends WatchUi.Drawable{
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleBackground_mc_9_26_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc" 10 8 ]
+        [ "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleBackground_mc_9_26_start" "_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleBackground_mc_9_26_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc" 14 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleBackground_mc_9_26_stop:
+    }
+    [ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 17; ]
+    function draw(dc as Dc) as Void {
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleBackground_mc_17_36_start:
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc" 19 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_TRANSPARENT;
+        %tmp.5 = getm $.Toybox.Application.Properties;
+        %tmp.6 = getv function %tmp.5 :getValue;
+        %tmp.7 = "BackgroundColor";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        %tmp.9 = as %tmp.8 Number;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.9);
+[ "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc" 20 8 ]
+        %tmp.10 = lgetv %dc;
+        %tmp.11 = getv function %tmp.10 :clear;
+        invoke %tmp.10 %tmp.11();
+_Users_dean_Projects_WatchFaceSimple_source_WatchFaceSimpleBackground_mc_17_36_stop:
+    }
+}
+[ @file = "/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc"; @line = 1; ]
+<init> {
+}

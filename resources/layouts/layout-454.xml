@@ -1,4 +1,5 @@
 <layout id="WatchFace454">
+    <drawable class="Background" />
     <!-- Top Left Area -->    
     <text-area id="TemperatureText" text="--" x="20%" y="10%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="10%"/>
     <text-area id="TemperatureUnit" text="ºC" x="20%" y="20%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="10%"/>
