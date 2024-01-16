@@ -177,18 +177,19 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     hidden function setHeartRate() as Void {
-    	var heartRate = "";
-        var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
-        var currentHeartrate = heartrateIterator.next().heartRate;
+        var hr = Activity.getActivityInfo().currentHeartRate;
+        if (hr == null) {
+            var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
+            var hrFromHistory = heartrateIterator.next().heartRate;
 
-        if(currentHeartrate == ActivityMonitor.INVALID_HR_SAMPLE) {
-            heartRate = "--";
-        } else {
-            heartRate = currentHeartrate.format("%d");
+            if(hrFromHistory == ActivityMonitor.INVALID_HR_SAMPLE) {
+                hr = "--";
+            } else {
+                hr = hrFromHistory.format("%d");
+            }
         }	
-
-	    var textArea = View.findDrawableById("HeartRateText") as TextArea; 
-	    textArea.setText(heartRate);
+        var textArea = View.findDrawableById("HeartRateText") as TextArea; 
+	    textArea.setText(hr);
     }
 
     hidden function setDate() as Void {        
