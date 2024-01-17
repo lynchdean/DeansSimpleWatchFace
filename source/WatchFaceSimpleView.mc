@@ -57,7 +57,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         if (currentConditions != null) {
             setTemperature();
             setPrecipitationChance();
-            setSunset();
+            setSunriseSunset();
         }
         applyProperties();
         View.onUpdate(dc);
@@ -97,7 +97,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             "HoursMinutesText",
             "TemperatureText",
             "RainText",
-            "SunsetText",
+            "SunText",
             "HeartRateText",
             "DateDayText",
             "DateNumberText",
@@ -112,7 +112,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             "SecondsText",
             "RainIcon",
             "TemperatureUnit",
-            "SunsetIcon",
+            "SunIcon",
             "HeartRateIcon",
             "BatteryIcon"
         ] as Array<String>;
@@ -185,11 +185,11 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             if(hrFromHistory == ActivityMonitor.INVALID_HR_SAMPLE) {
                 hr = "--";
             } else {
-                hr = hrFromHistory.format("%d");
+                hr = hrFromHistory;
             }
         }	
         var textArea = View.findDrawableById("HeartRateText") as TextArea; 
-	    textArea.setText(hr);
+	    textArea.setText(hr.format("%d"));
     }
 
     hidden function setDate() as Void {        
@@ -224,13 +224,26 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         }
     }
 
-    hidden function setSunset() as Void {
-        if (currentConditions.observationLocationPosition != null && currentConditions.observationTime != null) {
-            var sunset = Weather.getSunset(currentConditions.observationLocationPosition, currentConditions.observationTime);
-            var info = Gregorian.utcInfo(sunset, Time.FORMAT_SHORT);
-            var time = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
-            var textArea = View.findDrawableById("SunsetText") as TextArea;  
-            textArea.setText(time);
+    hidden function setSunriseSunset() as Void {
+        var location = currentConditions.observationLocationPosition;
+        var now = Time.now();
+        if (location != null && now != null) {
+            var sunrise = Weather.getSunrise(location, now);
+            var sunset = Weather.getSunset(location, now);
+
+            var info;
+            var sunIcon = View.findDrawableById("SunIcon") as TextArea;
+            if(now.greaterThan(sunrise) && now.lessThan(sunset)) {
+                info = Gregorian.utcInfo(sunset, Time.FORMAT_SHORT);
+                sunIcon.setText("s");
+            } else {
+                info = Gregorian.utcInfo(sunrise, Time.FORMAT_SHORT);
+                sunIcon.setText("S");
+            }
+
+            var sunTime = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
+            var textArea = View.findDrawableById("SunText") as TextArea;  
+            textArea.setText(sunTime);
         }
     }
 }

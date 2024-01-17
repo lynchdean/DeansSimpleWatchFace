@@ -1,9 +1,11 @@
 For icon font:
-0 = Battery Charging
-1 = Battery Full
-2 = Battery Half
-3 = Battery Empty
-R = Rain
-H = Heart
-S = Sunset
-B = Bluetooth
+0 = Battery Charging 48
+1 = Battery Full 49
+2 = Battery Half 50
+3 = Battery Empty 51
+R = Rain 82
+H = Heart 72
+s = Sunset 83
+S = Sunrise 115
+B = Bluetooth 66
+M = Messages 77
