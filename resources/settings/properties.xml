@@ -2,4 +2,5 @@
     <property id="BackgroundColor" type="number">0x000000</property>
     <property id="TextColor" type="number">0xFFFFFF</property>
     <property id="IconColor" type="number">0xAAAAAA</property>
+    <property id="ReplaceSeconds" type="boolean">false</property>
 </properties>
