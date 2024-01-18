@@ -48,8 +48,12 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+        settings = System.getDeviceSettings();
+        currentConditions = Weather.getCurrentConditions();
         setHoursMinutes();
-        setSeconds();
+        // setSeconds();
+        // setNotificationCount();
+        setMiddleRight();
         setConnected();
         setHeartRate();
         setDate();
@@ -98,6 +102,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             "TemperatureText",
             "RainText",
             "SunText",
+            "NotifCountText",
             "HeartRateText",
             "DateDayText",
             "DateNumberText",
@@ -110,6 +115,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var array = [
             "ConnnectedBT",
             "SecondsText",
+            "NotifCountIcon",
             "RainIcon",
             "TemperatureUnit",
             "SunIcon",
@@ -140,11 +146,46 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         textArea.setText(timeString);
     }
 
-    hidden function setSeconds() as Void {
-        var clockTime = System.getClockTime();
-        var secondsString = clockTime.sec.format("%02d");
-        var textArea = View.findDrawableById("SecondsText") as TextArea;
-        textArea.setText(secondsString);
+    // hidden function setSeconds() as Void {
+    //     var clockTime = System.getClockTime();
+    //     var secondsString = clockTime.sec.format("%02d");
+    //     var textArea = View.findDrawableById("SecondsText") as TextArea;
+    //     textArea.setText(secondsString);
+    // }
+
+    // hidden function setNotificationCount() as Void {
+    //     var nc = settings.notificationCount;
+    //     if (nc > 99) {
+    //         nc = "99+";
+    //     }
+    //     var textArea = View.findDrawableById("NotifCountText") as TextArea;
+    //     textArea.setText(nc.toString());
+    // }
+
+    hidden function setMiddleRight() as Void {
+        var replaceSeconds = Properties.getValue("ReplaceSeconds") as Boolean;
+
+        if (!replaceSeconds) {
+            var clockTime = System.getClockTime();
+            var secondsString = clockTime.sec.format("%02d");
+            var textArea = View.findDrawableById("SecondsText") as TextArea;
+            textArea.setText(secondsString);
+            var text = View.findDrawableById("NotifCountText") as TextArea;
+            text.setText("");
+            var icon = View.findDrawableById("NotifCountIcon") as TextArea;
+            icon.setText("");
+        } else {
+            var nc = settings.notificationCount;
+            if (nc > 99) {
+                nc = "99+";
+            }
+            var seconds = View.findDrawableById("SecondsText") as TextArea;
+            seconds.setText("");
+            var text = View.findDrawableById("NotifCountText") as TextArea;
+            text.setText(nc.toString());
+            var icon = View.findDrawableById("NotifCountIcon") as TextArea;
+            icon.setText("M");
+        }
     }
 
     hidden function setConnected() as Void {
