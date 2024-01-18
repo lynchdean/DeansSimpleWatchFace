@@ -48,6 +48,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+        settings = System.getDeviceSettings();
+        currentConditions = Weather.getCurrentConditions();
         setHoursMinutes();
         // setSeconds();
         // setNotificationCount();

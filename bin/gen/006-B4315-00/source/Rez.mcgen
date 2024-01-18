@@ -20,7 +20,7 @@ module Rez {
     module Layouts {
         function WatchFace454(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var local_Rez_Fonts_Icons45 = (WatchUi.loadResource($.Rez.Fonts.Icons45) as Graphics.FontReference);
-            var rez_cmp_local_custom_drawable_13275265911406946463 = new Background();
+            var rez_cmp_local_custom_drawable_18933424433551334699 = new Background();
 
             var rez_cmp_local_textarea_TemperatureText = new WatchUi.TextArea({:identifier=>"TemperatureText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
@@ -56,12 +56,12 @@ module Rez {
 
             var rez_cmp_local_textarea_BatteryIcon = new WatchUi.TextArea({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"1", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
 
-            return [rez_cmp_local_custom_drawable_13275265911406946463, rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunText, rez_cmp_local_textarea_SunIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_NotifCountText, rez_cmp_local_textarea_NotifCountIcon, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_18933424433551334699, rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunText, rez_cmp_local_textarea_SunIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_NotifCountText, rez_cmp_local_textarea_NotifCountIcon, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
         }
 
         function WatchFace260(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var local_Rez_Fonts_Icons24 = (WatchUi.loadResource($.Rez.Fonts.Icons24) as Graphics.FontReference);
-            var rez_cmp_local_custom_drawable_17145548101412618473 = new Background();
+            var rez_cmp_local_custom_drawable_95833737297070770254 = new Background();
 
             var rez_cmp_local_textarea_TemperatureText = new WatchUi.TextArea({:identifier=>"TemperatureText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
@@ -93,7 +93,7 @@ module Rez {
 
             var rez_cmp_local_textarea_BatteryIcon = new WatchUi.TextArea({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"1", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
 
-            return [rez_cmp_local_custom_drawable_17145548101412618473, rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunText, rez_cmp_local_textarea_SunIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_95833737297070770254, rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunText, rez_cmp_local_textarea_SunIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
