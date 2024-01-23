@@ -10,16 +10,21 @@ import Toybox.Application.Properties;
 class WatchFaceSimpleView extends WatchUi.WatchFace {
     var settings;
     var stats;
-    var date;
-    var currentConditions;
     var textColor;
     var iconColor;
+
+    var now;
+    var today;
+    var date;
+
+    var currentConditions;
+    var sunrise;
+    var sunset;
 
     function initialize() {
         WatchFace.initialize();
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
-	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         currentConditions = Weather.getCurrentConditions();
         getProperties();
     } 
@@ -32,7 +37,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             if (screenHeight == 454) {
                 setLayout(Rez.Layouts.WatchFace454(dc));
             } else {
-                // Default to 260x260
+                // Default to 260x260 & 240x240
                 setLayout(Rez.Layouts.WatchFace260(dc));
             }
         }
@@ -46,10 +51,18 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void { 
+        now = Time.now();
+        var newToday = Time.today();
+        if (newToday != today) {
+            today = newToday;
+            date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+            updateSunsetSunrise();
+        }
+
         settings = System.getDeviceSettings();
         currentConditions = Weather.getCurrentConditions();
 
-        setHoursMinutes();
+        setTime();
         setMiddleRight();
         setConnected();
         setHeartRate();
@@ -131,7 +144,15 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         }
     }
 
-    hidden function setHoursMinutes() as Void {
+    hidden function updateSunsetSunrise() as Void {
+        var position = currentConditions.observationLocationPosition;
+        if (position != null && now != null) {
+            sunrise = Weather.getSunrise(position, now);
+            sunset = Weather.getSunset(position, now);
+        }
+    }
+
+    hidden function setTime() as Void {
         var clockTime = System.getClockTime();
         var hour = clockTime.hour;
         if (!settings.is24Hour) {
@@ -148,7 +169,6 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     hidden function setMiddleRight() as Void {
         var replaceSeconds = Properties.getValue("ReplaceSeconds") as Boolean;
-
         if (!replaceSeconds) {
             clearNotificationCount();
             setSeconds();
@@ -175,10 +195,10 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         if (nc > 99) {
             nc = "99+";
         }
-        var textArea = View.findDrawableById("NotifCountText") as TextArea;
-        textArea.setText(nc.toString());
         var icon = View.findDrawableById("NotifCountIcon") as TextArea;
         icon.setText("M");
+        var textArea = View.findDrawableById("NotifCountText") as TextArea;
+        textArea.setText(nc.toString());
     }
 
     hidden function clearNotificationCount() as Void {
@@ -266,25 +286,18 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     hidden function setSunriseSunset() as Void {
-        var position = currentConditions.observationLocationPosition;
-        var now = Time.now();
-        if (position != null && now != null) {
-            var sunrise = Weather.getSunrise(position, now);
-            var sunset = Weather.getSunset(position, now);
-
-            var info;
-            var sunIcon = View.findDrawableById("SunIcon") as TextArea;
-            if(now.greaterThan(sunrise) && now.lessThan(sunset)) {
-                info = Gregorian.info(sunset, Time.FORMAT_SHORT);
-                sunIcon.setText("s");
-            } else {
-                info = Gregorian.info(sunrise, Time.FORMAT_SHORT);
-                sunIcon.setText("S");
-            }
-
-            var sunTime = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
-            var textArea = View.findDrawableById("SunText") as TextArea;  
-            textArea.setText(sunTime);
+        var info;
+        var sunIcon = View.findDrawableById("SunIcon") as TextArea;
+        if(now.greaterThan(sunrise) && now.lessThan(sunset)) {
+            info = Gregorian.info(sunset, Time.FORMAT_SHORT);
+            sunIcon.setText("s");
+        } else {
+            info = Gregorian.info(sunrise, Time.FORMAT_SHORT);
+            sunIcon.setText("S");
         }
+
+        var sunTime = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
+        var textArea = View.findDrawableById("SunText") as TextArea;  
+        textArea.setText(sunTime); 
     }
 }

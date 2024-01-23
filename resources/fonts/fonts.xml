@@ -1,4 +1,6 @@
 <fonts>
-  <font id="Icons45" filename="icons_45.fnt" antialias="true" />
+  <!-- 454x454 -->
+  <font id="Icons45" filename="icons_45.fnt" antialias="true" /> 
+  <!-- 260x260 & 240x240-->
   <font id="Icons24" filename="icons_24.fnt" antialias="true" />
 </fonts>

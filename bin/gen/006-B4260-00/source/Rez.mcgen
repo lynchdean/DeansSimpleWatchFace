@@ -7,78 +7,46 @@ using Toybox.Graphics as Gfx;
 module Rez {
     module Drawables {
         (:initialized) var LauncherIcon as Symbol;
-
-        class shapes extends WatchUi.Drawable {
-
-            function initialize() {
-                Drawable.initialize({});
-            }
-
-            function draw(dc as Graphics.Dc) as Void {
-                if (self has :isVisible) {
-                    if (!self.isVisible) {
-                        return;
-                    }
-                }
-
-
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (10 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (10 / 100.0))) + 0, ((454 - 0) * (80 / 100.0)) - (2 * 0), ((454 - 0) * (80 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (20 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (10 / 100.0))) + 0, ((454 - 0) * (20 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (40 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (10 / 100.0))) + 0, ((454 - 0) * (20 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (60 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (10 / 100.0))) + 0, ((454 - 0) * (20 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (10 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (30 / 100.0))) + 0, ((454 - 0) * (30 / 100.0)) - (2 * 0), ((454 - 0) * (40 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (40 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (30 / 100.0))) + 0, ((454 - 0) * (30 / 100.0)) - (2 * 0), ((454 - 0) * (40 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (70 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (30 / 100.0))) + 0, ((454 - 0) * (20 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (70 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (50 / 100.0))) + 0, ((454 - 0) * (20 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (20 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (70 / 100.0))) + 0, ((454 - 0) * (1 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (40 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (70 / 100.0))) + 0, ((454 - 0) * (1 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-                dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-                dc.fillRectangle(((0 + 0) + ((454 - 0) * (60 / 100.0))) + 0, ((0 + 0) + ((454 - 0) * (70 / 100.0))) + 0, ((454 - 0) * (1 / 100.0)) - (2 * 0), ((454 - 0) * (20 / 100.0)) - (2 * 0));
-            }
-        }
     } // Drawables
 
     module Fonts {
-        (:initialized) var Icons as Symbol;
+        (:initialized) var Icons45 as Symbol;
+        (:initialized) var Icons24 as Symbol;
     } // Fonts
 
     module JsonData {
     } // JsonData
 
     module Layouts {
-        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var local_Rez_Fonts_Icons = (WatchUi.loadResource($.Rez.Fonts.Icons) as Graphics.FontReference);
+        function WatchFace454(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var local_Rez_Fonts_Icons45 = (WatchUi.loadResource($.Rez.Fonts.Icons45) as Graphics.FontReference);
+            var rez_cmp_local_custom_drawable_12062080712598219813 = new Background();
+
             var rez_cmp_local_textarea_TemperatureText = new WatchUi.TextArea({:identifier=>"TemperatureText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
             var rez_cmp_local_textarea_TemperatureUnit = new WatchUi.TextArea({:identifier=>"TemperatureUnit", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"ºC", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
             var rez_cmp_local_textarea_RainText = new WatchUi.TextArea({:identifier=>"RainText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--%", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_RainIcon = new WatchUi.TextArea({:identifier=>"RainIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"R", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_RainIcon = new WatchUi.TextArea({:identifier=>"RainIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"R", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_SunsetText = new WatchUi.TextArea({:identifier=>"SunsetText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--:--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_SunText = new WatchUi.TextArea({:identifier=>"SunText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--:--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_SunsetIcon = new WatchUi.TextArea({:identifier=>"SunsetIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"S", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_SunIcon = new WatchUi.TextArea({:identifier=>"SunIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"S", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
 
             var rez_cmp_local_textarea_HoursMinutesText = new WatchUi.TextArea({:identifier=>"HoursMinutesText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (80 / 100.0)), :locX=>(454 * (10 / 100.0)), :locY=>(454 * (30 / 100.0)), :text=>"99:99", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (40 / 100.0)), :font=>[Graphics.FONT_NUMBER_MEDIUM] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_SecondsText = new WatchUi.TextArea({:identifier=>"SecondsText", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 / 2) - ((454 * (20 / 100.0)) / 2), :text=>"SS", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[Graphics.FONT_TINY] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_SecondsText = new WatchUi.TextArea({:identifier=>"SecondsText", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 / 2) - ((454 * (20 / 100.0)) / 2), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[Graphics.FONT_TINY] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_ConnnectedBT = new WatchUi.TextArea({:identifier=>"ConnnectedBT", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>0, :locY=>(454 / 2) - ((454 * (20 / 100.0)) / 2), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[local_Rez_Fonts_Icons] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_NotifCountText = new WatchUi.TextArea({:identifier=>"NotifCountText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 * (35 / 100.0)), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_NotifCountIcon = new WatchUi.TextArea({:identifier=>"NotifCountIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 * (45 / 100.0)), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_ConnnectedBT = new WatchUi.TextArea({:identifier=>"ConnnectedBT", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>0, :locY=>(454 / 2) - ((454 * (20 / 100.0)) / 2), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
 
             var rez_cmp_local_textarea_HeartRateText = new WatchUi.TextArea({:identifier=>"HeartRateText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (70 / 100.0)), :text=>"---", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_HeartRateIcon = new WatchUi.TextArea({:identifier=>"HeartRateIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"H", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_HeartRateIcon = new WatchUi.TextArea({:identifier=>"HeartRateIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"H", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
 
             var rez_cmp_local_textarea_DateDayText = new WatchUi.TextArea({:identifier=>"DateDayText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (70 / 100.0)), :text=>"DDD", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
@@ -86,9 +54,50 @@ module Rez {
 
             var rez_cmp_local_textarea_BatteryText = new WatchUi.TextArea({:identifier=>"BatteryText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (70 / 100.0)), :text=>"--%", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
 
-            var rez_cmp_local_textarea_BatteryIcon = new WatchUi.TextArea({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"1", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons] as Array<Graphics.FontType>});
+            var rez_cmp_local_textarea_BatteryIcon = new WatchUi.TextArea({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"1", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons45] as Array<Graphics.FontType>});
 
-            return [rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunsetText, rez_cmp_local_textarea_SunsetIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_12062080712598219813, rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunText, rez_cmp_local_textarea_SunIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_NotifCountText, rez_cmp_local_textarea_NotifCountIcon, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
+        }
+
+        function WatchFace260(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var local_Rez_Fonts_Icons24 = (WatchUi.loadResource($.Rez.Fonts.Icons24) as Graphics.FontReference);
+            var rez_cmp_local_custom_drawable_92061349322155943712 = new Background();
+
+            var rez_cmp_local_textarea_TemperatureText = new WatchUi.TextArea({:identifier=>"TemperatureText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_TemperatureUnit = new WatchUi.TextArea({:identifier=>"TemperatureUnit", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"ºC", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_RainText = new WatchUi.TextArea({:identifier=>"RainText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--%", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_RainIcon = new WatchUi.TextArea({:identifier=>"RainIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"R", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_SunText = new WatchUi.TextArea({:identifier=>"SunText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (10 / 100.0)), :text=>"--:--", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_SunIcon = new WatchUi.TextArea({:identifier=>"SunIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (20 / 100.0)), :text=>"S", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_HoursMinutesText = new WatchUi.TextArea({:identifier=>"HoursMinutesText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (80 / 100.0)), :locX=>(454 * (10 / 100.0)), :locY=>(454 * (30 / 100.0)), :text=>"99:99", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (40 / 100.0)), :font=>[Graphics.FONT_NUMBER_MEDIUM] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_SecondsText = new WatchUi.TextArea({:identifier=>"SecondsText", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 / 2) - ((454 * (20 / 100.0)) / 2), :text=>"SS", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[Graphics.FONT_TINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_NotifCountText = new WatchUi.TextArea({:identifier=>"NotifCountText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 * (35 / 100.0)), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_NotifCountIcon = new WatchUi.TextArea({:identifier=>"NotifCountIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 - (454 * (20 / 100.0))), :locY=>(454 * (45 / 100.0)), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_ConnnectedBT = new WatchUi.TextArea({:identifier=>"ConnnectedBT", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>0, :locY=>(454 / 2) - ((454 * (20 / 100.0)) / 2), :text=>"", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (20 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_HeartRateText = new WatchUi.TextArea({:identifier=>"HeartRateText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (70 / 100.0)), :text=>"---", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_HeartRateIcon = new WatchUi.TextArea({:identifier=>"HeartRateIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (20 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"H", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_DateDayText = new WatchUi.TextArea({:identifier=>"DateDayText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (70 / 100.0)), :text=>"DDD", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_DateNumberText = new WatchUi.TextArea({:identifier=>"DateNumberText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (40 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"DD", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_BatteryText = new WatchUi.TextArea({:identifier=>"BatteryText", :color=>Graphics.COLOR_WHITE, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (70 / 100.0)), :text=>"--%", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[Graphics.FONT_XTINY] as Array<Graphics.FontType>});
+
+            var rez_cmp_local_textarea_BatteryIcon = new WatchUi.TextArea({:identifier=>"BatteryIcon", :color=>Graphics.COLOR_LT_GRAY, :width=>(454 * (20 / 100.0)), :locX=>(454 * (60 / 100.0)), :locY=>(454 * (80 / 100.0)), :text=>"1", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :height=>(454 * (10 / 100.0)), :font=>[local_Rez_Fonts_Icons24] as Array<Graphics.FontType>});
+
+            return [rez_cmp_local_custom_drawable_92061349322155943712, rez_cmp_local_textarea_TemperatureText, rez_cmp_local_textarea_TemperatureUnit, rez_cmp_local_textarea_RainText, rez_cmp_local_textarea_RainIcon, rez_cmp_local_textarea_SunText, rez_cmp_local_textarea_SunIcon, rez_cmp_local_textarea_HoursMinutesText, rez_cmp_local_textarea_SecondsText, rez_cmp_local_textarea_NotifCountText, rez_cmp_local_textarea_NotifCountIcon, rez_cmp_local_textarea_ConnnectedBT, rez_cmp_local_textarea_HeartRateText, rez_cmp_local_textarea_HeartRateIcon, rez_cmp_local_textarea_DateDayText, rez_cmp_local_textarea_DateNumberText, rez_cmp_local_textarea_BatteryText, rez_cmp_local_textarea_BatteryIcon] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -96,7 +105,25 @@ module Rez {
     } // Menus
 
     module Strings {
+        (:initialized) var ColorLightGray as Symbol;
+        (:initialized) var ColorBlue as Symbol;
+        (:initialized) var BackgroundColorTitle as Symbol;
+        (:initialized) var ColorDarkRed as Symbol;
+        (:initialized) var ColorDarkGray as Symbol;
+        (:initialized) var ColorDarkBlue as Symbol;
+        (:initialized) var IconColorTitle as Symbol;
+        (:initialized) var ColorBlack as Symbol;
+        (:initialized) var ColorOrange as Symbol;
+        (:initialized) var ColorYellow as Symbol;
+        (:initialized) var TextColorTitle as Symbol;
         (:initialized) var AppName as Symbol;
+        (:initialized) var ColorDarkGreen as Symbol;
+        (:initialized) var ColorRed as Symbol;
+        (:initialized) var ColorPurple as Symbol;
+        (:initialized) var ColorPink as Symbol;
+        (:initialized) var ColorWhite as Symbol;
+        (:initialized) var ReplaceSeconds as Symbol;
+        (:initialized) var ColorGreen as Symbol;
     } // Strings
 
     module Styles {
