@@ -15,16 +15,10 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     var textColor;
     var iconColor;
 
-    var currentDay;
-    var storedDay;
-    var sunrise;
-    var sunset;
-
     function initialize() {
         WatchFace.initialize();
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
-        currentDay = Time.today();
 	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         currentConditions = Weather.getCurrentConditions();
         getProperties();
@@ -54,19 +48,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void { 
         settings = System.getDeviceSettings();
         currentConditions = Weather.getCurrentConditions();
-        // if(Time.today() != storedDay) {
-        //     storedDay = currentDay;
-        //     //do 24 hr things
-        //     // set date
-        //     // set sunset/rise
-        // }
-
-        settings = System.getDeviceSettings();
 
         setHoursMinutes();
-        setMiddleRight();
-        // setSeconds();
-        // setNotificationCount();
         setMiddleRight();
         setConnected();
         setHeartRate();
