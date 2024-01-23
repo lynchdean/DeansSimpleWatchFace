@@ -36,4 +36,8 @@
             <listEntry value="0xFF00FF">@Strings.ColorPink</listEntry>
         </settingConfig>
     </setting>
+
+    <setting propertyKey="@Properties.ReplaceSeconds" title="@Strings.ReplaceSeconds">
+        <settingConfig type="boolean"/>
+    </setting>
 </settings>

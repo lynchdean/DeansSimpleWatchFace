@@ -12,7 +12,9 @@
     
     <!-- Middle Area -->
     <text-area id="HoursMinutesText" text="99:99" x="10%" y="30%" font="Graphics.FONT_NUMBER_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="80%" height="40%"/>
-    <text-area id="SecondsText" text="SS" x="right" y="center" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="20%"/>
+    <text-area id="SecondsText" text="" x="right" y="center" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="20%"/>
+    <text-area id="NotifCountText" text="" x="right" y="35%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" width="20%" height="20%"/>
+    <text-area id="NotifCountIcon" text="" x="right" y="45%" font="@Fonts.Icons45" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="20%"/>
     <text-area id="ConnnectedBT" text="" x="left" y="center" font="@Fonts.Icons45" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" width="20%" height="20%"/>
     
     <!-- Bottom Left Area  -->

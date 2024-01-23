@@ -52,6 +52,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void { 
+        settings = System.getDeviceSettings();
+        currentConditions = Weather.getCurrentConditions();
         // if(Time.today() != storedDay) {
         //     storedDay = currentDay;
         //     //do 24 hr things
@@ -62,6 +64,9 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         settings = System.getDeviceSettings();
 
         setHoursMinutes();
+        setMiddleRight();
+        // setSeconds();
+        // setNotificationCount();
         setMiddleRight();
         setConnected();
         setHeartRate();
@@ -112,6 +117,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             "RainText",
             "SunText",
             "NotifCountText",
+            "NotifCountText",
             "HeartRateText",
             "DateDayText",
             "DateNumberText",
@@ -124,6 +130,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var array = [
             "ConnnectedBT",
             "SecondsText",
+            "NotifCountIcon",
             "NotifCountIcon",
             "RainIcon",
             "TemperatureUnit",
