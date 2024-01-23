@@ -8,7 +8,6 @@ import Toybox.Position;
 import Toybox.Application.Properties;
 
 class WatchFaceSimpleView extends WatchUi.WatchFace {
-
     var settings;
     var stats;
     var date;
@@ -16,10 +15,16 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     var textColor;
     var iconColor;
 
+    var currentDay;
+    var storedDay;
+    var sunrise;
+    var sunset;
+
     function initialize() {
         WatchFace.initialize();
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
+        currentDay = Time.today();
 	    date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         currentConditions = Weather.getCurrentConditions();
         getProperties();
@@ -35,7 +40,6 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             } else {
                 // Default to 260x260
                 setLayout(Rez.Layouts.WatchFace260(dc));
-
             }
         }
     }
@@ -47,9 +51,18 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     // Update the view
-    function onUpdate(dc as Dc) as Void {
+    function onUpdate(dc as Dc) as Void { 
+        // if(Time.today() != storedDay) {
+        //     storedDay = currentDay;
+        //     //do 24 hr things
+        //     // set date
+        //     // set sunset/rise
+        // }
+
+        settings = System.getDeviceSettings();
+
         setHoursMinutes();
-        setSeconds();
+        setMiddleRight();
         setConnected();
         setHeartRate();
         setDate();
@@ -98,6 +111,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             "TemperatureText",
             "RainText",
             "SunText",
+            "NotifCountText",
             "HeartRateText",
             "DateDayText",
             "DateNumberText",
@@ -110,6 +124,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var array = [
             "ConnnectedBT",
             "SecondsText",
+            "NotifCountIcon",
             "RainIcon",
             "TemperatureUnit",
             "SunIcon",
@@ -140,11 +155,47 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         textArea.setText(timeString);
     }
 
+
+    hidden function setMiddleRight() as Void {
+        var replaceSeconds = Properties.getValue("ReplaceSeconds") as Boolean;
+
+        if (!replaceSeconds) {
+            clearNotificationCount();
+            setSeconds();
+        } else {
+            clearSeconds();
+            setNotificationCount();
+        }
+    }
+
     hidden function setSeconds() as Void {
         var clockTime = System.getClockTime();
         var secondsString = clockTime.sec.format("%02d");
         var textArea = View.findDrawableById("SecondsText") as TextArea;
         textArea.setText(secondsString);
+    }
+
+    hidden function clearSeconds() as Void {
+        var seconds = View.findDrawableById("SecondsText") as TextArea;
+        seconds.setText("");
+    }
+
+    hidden function setNotificationCount() as Void {
+        var nc = settings.notificationCount;
+        if (nc > 99) {
+            nc = "99+";
+        }
+        var textArea = View.findDrawableById("NotifCountText") as TextArea;
+        textArea.setText(nc.toString());
+        var icon = View.findDrawableById("NotifCountIcon") as TextArea;
+        icon.setText("M");
+    }
+
+    hidden function clearNotificationCount() as Void {
+        var text = View.findDrawableById("NotifCountText") as TextArea;
+        text.setText("");
+        var icon = View.findDrawableById("NotifCountIcon") as TextArea;
+        icon.setText("");
     }
 
     hidden function setConnected() as Void {
@@ -225,19 +276,19 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     hidden function setSunriseSunset() as Void {
-        var location = currentConditions.observationLocationPosition;
+        var position = currentConditions.observationLocationPosition;
         var now = Time.now();
-        if (location != null && now != null) {
-            var sunrise = Weather.getSunrise(location, now);
-            var sunset = Weather.getSunset(location, now);
+        if (position != null && now != null) {
+            var sunrise = Weather.getSunrise(position, now);
+            var sunset = Weather.getSunset(position, now);
 
             var info;
             var sunIcon = View.findDrawableById("SunIcon") as TextArea;
             if(now.greaterThan(sunrise) && now.lessThan(sunset)) {
-                info = Gregorian.utcInfo(sunset, Time.FORMAT_SHORT);
+                info = Gregorian.info(sunset, Time.FORMAT_SHORT);
                 sunIcon.setText("s");
             } else {
-                info = Gregorian.utcInfo(sunrise, Time.FORMAT_SHORT);
+                info = Gregorian.info(sunrise, Time.FORMAT_SHORT);
                 sunIcon.setText("S");
             }
 
