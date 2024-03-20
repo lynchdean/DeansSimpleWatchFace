@@ -23,6 +23,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
+
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
         currentConditions = Weather.getCurrentConditions();
@@ -59,8 +60,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             updateSunsetSunrise();
         }
 
+        stats = System.getSystemStats();
         settings = System.getDeviceSettings();
-        currentConditions = Weather.getCurrentConditions();
 
         setTime();
         setMiddleRight();
@@ -93,7 +94,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     function handleSettingsUpdate() as Void {
         getProperties();
-        applyProperties();
+        // applyProperties();
     }
 
     hidden function getProperties() as Void {
@@ -164,6 +165,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var timeString = Lang.format("$1$:$2$", [hour.format("%02d"), clockTime.min.format("%02d")]);
         var textArea = View.findDrawableById("HoursMinutesText") as TextArea;
         textArea.setText(timeString);
+        textArea.setColor(textColor);
     }
 
 
@@ -183,6 +185,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var secondsString = clockTime.sec.format("%02d");
         var textArea = View.findDrawableById("SecondsText") as TextArea;
         textArea.setText(secondsString);
+        // textArea.setColor(iconColor);
     }
 
     hidden function clearSeconds() as Void {
@@ -197,8 +200,10 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         }
         var icon = View.findDrawableById("NotifCountIcon") as TextArea;
         icon.setText("M");
+        icon.setColor(iconColor);
         var textArea = View.findDrawableById("NotifCountText") as TextArea;
         textArea.setText(nc.toString());
+        // textArea.setColor(textColor);
     }
 
     hidden function clearNotificationCount() as Void {
@@ -264,16 +269,17 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     hidden function setTemperature() as Void {   
         if(currentConditions.temperature != null) {
-	        var textArea = View.findDrawableById("TemperatureText") as TextArea;
-            textArea.setText(currentConditions.temperature.format("%d"));
-
+	        var temperature = currentConditions.temperature;
             // Change unit to fahrenheit if statute defined in system settings
             if (settings != null && settings.temperatureUnits != null) {
                 if (settings.temperatureUnits == settings.UNIT_STATUTE) {
+                    temperature = (temperature * 1.8) + 32;
                     var temperatureUnit = View.findDrawableById("TemperatureUnit") as TextArea;
                     temperatureUnit.setText("ºF");
                 }
             }
+            var textArea = View.findDrawableById("TemperatureText") as TextArea;
+            textArea.setText(temperature.format("%d"));
         }  
     }
 
