@@ -54,10 +54,12 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void { 
         now = Time.now();
         var newToday = Time.today();
-        if (newToday != today) {
-            today = newToday;
-            date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
-            updateSunsetSunrise();
+        if (currentConditions != null) {
+            if (newToday != today) {
+                today = newToday;
+                date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+                updateSunsetSunrise();
+            }
         }
 
         stats = System.getSystemStats();
