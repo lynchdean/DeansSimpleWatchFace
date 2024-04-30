@@ -27,6 +27,9 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
         currentConditions = Weather.getCurrentConditions();
+
+        date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+        today = Time.today();
         getProperties();
     } 
 
@@ -261,6 +264,9 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     hidden function setDate() as Void {        
+        if (date == null) {
+            date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
+        }
         var dateNumberString = Lang.format("$1$", [date.day]);
 	    var dateDayString = Lang.format("$1$", [date.day_of_week]).substring(0, 3).toUpper();
 	    var dateNumber = View.findDrawableById("DateNumberText") as TextArea;  

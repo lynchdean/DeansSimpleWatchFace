@@ -13,217 +13,218 @@
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleBackground.mc" id="4" lineNum="20" parent="globals/Background" pc="268435590" symbol="draw"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435603" symbol="&lt;init&gt;"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="6" lineNum="10" parent="globals/WatchFaceSimpleView" pc="268435627" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="7" lineNum="95" parent="globals/WatchFaceSimpleView" pc="268435646" symbol="handleSettingsUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="7" lineNum="96" parent="globals/WatchFaceSimpleView" pc="268435648" symbol="handleSettingsUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="225" parent="globals/WatchFaceSimpleView" pc="268435661" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="226" parent="globals/WatchFaceSimpleView" pc="268435665" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="227" parent="globals/WatchFaceSimpleView" pc="268435681" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="228" parent="globals/WatchFaceSimpleView" pc="268435709" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="231" parent="globals/WatchFaceSimpleView" pc="268435743" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="232" parent="globals/WatchFaceSimpleView" pc="268435771" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="233" parent="globals/WatchFaceSimpleView" pc="268435788" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="234" parent="globals/WatchFaceSimpleView" pc="268435805" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="235" parent="globals/WatchFaceSimpleView" pc="268435825" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="236" parent="globals/WatchFaceSimpleView" pc="268435836" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="237" parent="globals/WatchFaceSimpleView" pc="268435856" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="238" parent="globals/WatchFaceSimpleView" pc="268435867" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="240" parent="globals/WatchFaceSimpleView" pc="268435887" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="241" parent="globals/WatchFaceSimpleView" pc="268435904" symbol="setBattery"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="148" parent="globals/WatchFaceSimpleView" pc="268435922" symbol="updateSunsetSunrise"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="149" parent="globals/WatchFaceSimpleView" pc="268435926" symbol="updateSunsetSunrise"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="150" parent="globals/WatchFaceSimpleView" pc="268435942" symbol="updateSunsetSunrise"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="151" parent="globals/WatchFaceSimpleView" pc="268435965" symbol="updateSunsetSunrise"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="152" parent="globals/WatchFaceSimpleView" pc="268435998" symbol="updateSunsetSunrise"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="183" parent="globals/WatchFaceSimpleView" pc="268436035" symbol="setSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="184" parent="globals/WatchFaceSimpleView" pc="268436039" symbol="setSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="185" parent="globals/WatchFaceSimpleView" pc="268436058" symbol="setSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="186" parent="globals/WatchFaceSimpleView" pc="268436082" symbol="setSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="187" parent="globals/WatchFaceSimpleView" pc="268436110" symbol="setSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="294" parent="globals/WatchFaceSimpleView" pc="268436125" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="295" parent="globals/WatchFaceSimpleView" pc="268436129" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="296" parent="globals/WatchFaceSimpleView" pc="268436129" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="297" parent="globals/WatchFaceSimpleView" pc="268436157" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="298" parent="globals/WatchFaceSimpleView" pc="268436216" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="299" parent="globals/WatchFaceSimpleView" pc="268436246" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="301" parent="globals/WatchFaceSimpleView" pc="268436266" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="302" parent="globals/WatchFaceSimpleView" pc="268436296" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="305" parent="globals/WatchFaceSimpleView" pc="268436313" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="306" parent="globals/WatchFaceSimpleView" pc="268436401" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="307" parent="globals/WatchFaceSimpleView" pc="268436429" symbol="setSunriseSunset"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="270" parent="globals/WatchFaceSimpleView" pc="268436444" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="271" parent="globals/WatchFaceSimpleView" pc="268436448" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="272" parent="globals/WatchFaceSimpleView" pc="268436467" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="274" parent="globals/WatchFaceSimpleView" pc="268436483" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="275" parent="globals/WatchFaceSimpleView" pc="268436518" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="276" parent="globals/WatchFaceSimpleView" pc="268436550" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="277" parent="globals/WatchFaceSimpleView" pc="268436566" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="278" parent="globals/WatchFaceSimpleView" pc="268436594" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="281" parent="globals/WatchFaceSimpleView" pc="268436617" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="282" parent="globals/WatchFaceSimpleView" pc="268436645" symbol="setTemperature"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="172" parent="globals/WatchFaceSimpleView" pc="268436677" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="173" parent="globals/WatchFaceSimpleView" pc="268436681" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="174" parent="globals/WatchFaceSimpleView" pc="268436703" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="175" parent="globals/WatchFaceSimpleView" pc="268436709" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="176" parent="globals/WatchFaceSimpleView" pc="268436721" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="178" parent="globals/WatchFaceSimpleView" pc="268436736" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="179" parent="globals/WatchFaceSimpleView" pc="268436748" symbol="setMiddleRight"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="156" parent="globals/WatchFaceSimpleView" pc="268436761" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="157" parent="globals/WatchFaceSimpleView" pc="268436765" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="158" parent="globals/WatchFaceSimpleView" pc="268436784" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="159" parent="globals/WatchFaceSimpleView" pc="268436794" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="160" parent="globals/WatchFaceSimpleView" pc="268436812" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="161" parent="globals/WatchFaceSimpleView" pc="268436822" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="162" parent="globals/WatchFaceSimpleView" pc="268436833" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="165" parent="globals/WatchFaceSimpleView" pc="268436846" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="166" parent="globals/WatchFaceSimpleView" pc="268436928" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="167" parent="globals/WatchFaceSimpleView" pc="268436956" symbol="setTime"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="168" parent="globals/WatchFaceSimpleView" pc="268436970" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="7" lineNum="97" parent="globals/WatchFaceSimpleView" pc="268435646" symbol="handleSettingsUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="7" lineNum="98" parent="globals/WatchFaceSimpleView" pc="268435648" symbol="handleSettingsUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="227" parent="globals/WatchFaceSimpleView" pc="268435661" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="228" parent="globals/WatchFaceSimpleView" pc="268435665" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="229" parent="globals/WatchFaceSimpleView" pc="268435681" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="230" parent="globals/WatchFaceSimpleView" pc="268435709" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="233" parent="globals/WatchFaceSimpleView" pc="268435743" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="234" parent="globals/WatchFaceSimpleView" pc="268435771" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="235" parent="globals/WatchFaceSimpleView" pc="268435788" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="236" parent="globals/WatchFaceSimpleView" pc="268435805" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="237" parent="globals/WatchFaceSimpleView" pc="268435825" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="238" parent="globals/WatchFaceSimpleView" pc="268435836" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="239" parent="globals/WatchFaceSimpleView" pc="268435856" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="240" parent="globals/WatchFaceSimpleView" pc="268435867" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="242" parent="globals/WatchFaceSimpleView" pc="268435887" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="8" lineNum="243" parent="globals/WatchFaceSimpleView" pc="268435904" symbol="setBattery"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="150" parent="globals/WatchFaceSimpleView" pc="268435922" symbol="updateSunsetSunrise"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="151" parent="globals/WatchFaceSimpleView" pc="268435926" symbol="updateSunsetSunrise"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="152" parent="globals/WatchFaceSimpleView" pc="268435942" symbol="updateSunsetSunrise"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="153" parent="globals/WatchFaceSimpleView" pc="268435965" symbol="updateSunsetSunrise"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="9" lineNum="154" parent="globals/WatchFaceSimpleView" pc="268435998" symbol="updateSunsetSunrise"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="185" parent="globals/WatchFaceSimpleView" pc="268436035" symbol="setSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="186" parent="globals/WatchFaceSimpleView" pc="268436039" symbol="setSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="187" parent="globals/WatchFaceSimpleView" pc="268436058" symbol="setSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="188" parent="globals/WatchFaceSimpleView" pc="268436082" symbol="setSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="10" lineNum="189" parent="globals/WatchFaceSimpleView" pc="268436110" symbol="setSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="296" parent="globals/WatchFaceSimpleView" pc="268436125" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="298" parent="globals/WatchFaceSimpleView" pc="268436129" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="297" parent="globals/WatchFaceSimpleView" pc="268436129" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="299" parent="globals/WatchFaceSimpleView" pc="268436157" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="300" parent="globals/WatchFaceSimpleView" pc="268436216" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="301" parent="globals/WatchFaceSimpleView" pc="268436246" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="303" parent="globals/WatchFaceSimpleView" pc="268436266" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="304" parent="globals/WatchFaceSimpleView" pc="268436296" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="307" parent="globals/WatchFaceSimpleView" pc="268436313" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="308" parent="globals/WatchFaceSimpleView" pc="268436401" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="11" lineNum="309" parent="globals/WatchFaceSimpleView" pc="268436429" symbol="setSunriseSunset"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="272" parent="globals/WatchFaceSimpleView" pc="268436444" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="273" parent="globals/WatchFaceSimpleView" pc="268436448" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="274" parent="globals/WatchFaceSimpleView" pc="268436467" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="276" parent="globals/WatchFaceSimpleView" pc="268436483" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="277" parent="globals/WatchFaceSimpleView" pc="268436518" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="278" parent="globals/WatchFaceSimpleView" pc="268436550" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="279" parent="globals/WatchFaceSimpleView" pc="268436566" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="280" parent="globals/WatchFaceSimpleView" pc="268436594" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="283" parent="globals/WatchFaceSimpleView" pc="268436617" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="12" lineNum="284" parent="globals/WatchFaceSimpleView" pc="268436645" symbol="setTemperature"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="174" parent="globals/WatchFaceSimpleView" pc="268436677" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="175" parent="globals/WatchFaceSimpleView" pc="268436681" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="176" parent="globals/WatchFaceSimpleView" pc="268436703" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="177" parent="globals/WatchFaceSimpleView" pc="268436709" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="178" parent="globals/WatchFaceSimpleView" pc="268436721" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="180" parent="globals/WatchFaceSimpleView" pc="268436736" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="14" lineNum="181" parent="globals/WatchFaceSimpleView" pc="268436748" symbol="setMiddleRight"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="158" parent="globals/WatchFaceSimpleView" pc="268436761" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="159" parent="globals/WatchFaceSimpleView" pc="268436765" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="160" parent="globals/WatchFaceSimpleView" pc="268436784" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="161" parent="globals/WatchFaceSimpleView" pc="268436794" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="162" parent="globals/WatchFaceSimpleView" pc="268436812" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="163" parent="globals/WatchFaceSimpleView" pc="268436822" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="164" parent="globals/WatchFaceSimpleView" pc="268436833" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="167" parent="globals/WatchFaceSimpleView" pc="268436846" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="168" parent="globals/WatchFaceSimpleView" pc="268436928" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="169" parent="globals/WatchFaceSimpleView" pc="268436956" symbol="setTime"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="15" lineNum="170" parent="globals/WatchFaceSimpleView" pc="268436970" symbol="setTime"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="18" lineNum="34" parent="globals/WatchFaceSimpleView" pc="268436991" symbol="onLayout"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="18" lineNum="35" parent="globals/WatchFaceSimpleView" pc="268436995" symbol="onLayout"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="18" lineNum="37" parent="globals/WatchFaceSimpleView" pc="268437011" symbol="onLayout"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="18" lineNum="38" parent="globals/WatchFaceSimpleView" pc="268437018" symbol="onLayout"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="18" lineNum="39" parent="globals/WatchFaceSimpleView" pc="268437029" symbol="onLayout"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="18" lineNum="42" parent="globals/WatchFaceSimpleView" pc="268437073" symbol="onLayout"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="19" lineNum="105" parent="globals/WatchFaceSimpleView" pc="268437118" symbol="applyProperties"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="19" lineNum="106" parent="globals/WatchFaceSimpleView" pc="268437120" symbol="applyProperties"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="19" lineNum="107" parent="globals/WatchFaceSimpleView" pc="268437132" symbol="applyProperties"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="286" parent="globals/WatchFaceSimpleView" pc="268437145" symbol="setPrecipitationChance"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="287" parent="globals/WatchFaceSimpleView" pc="268437149" symbol="setPrecipitationChance"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="288" parent="globals/WatchFaceSimpleView" pc="268437168" symbol="setPrecipitationChance"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="289" parent="globals/WatchFaceSimpleView" pc="268437184" symbol="setPrecipitationChance"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="290" parent="globals/WatchFaceSimpleView" pc="268437212" symbol="setPrecipitationChance"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="21" lineNum="100" parent="globals/WatchFaceSimpleView" pc="268437250" symbol="getProperties"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="21" lineNum="101" parent="globals/WatchFaceSimpleView" pc="268437252" symbol="getProperties"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="21" lineNum="102" parent="globals/WatchFaceSimpleView" pc="268437280" symbol="getProperties"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="22" lineNum="110" parent="globals/WatchFaceSimpleView" pc="268437309" symbol="setTextColor"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="22" lineNum="111" parent="globals/WatchFaceSimpleView" pc="268437313" symbol="setTextColor"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="22" lineNum="123" parent="globals/WatchFaceSimpleView" pc="268437451" symbol="setTextColor"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="196" parent="globals/WatchFaceSimpleView" pc="268437474" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="197" parent="globals/WatchFaceSimpleView" pc="268437478" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="198" parent="globals/WatchFaceSimpleView" pc="268437494" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="199" parent="globals/WatchFaceSimpleView" pc="268437505" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="201" parent="globals/WatchFaceSimpleView" pc="268437515" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="202" parent="globals/WatchFaceSimpleView" pc="268437543" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="203" parent="globals/WatchFaceSimpleView" pc="268437560" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="204" parent="globals/WatchFaceSimpleView" pc="268437580" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="205" parent="globals/WatchFaceSimpleView" pc="268437608" symbol="setNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="24" lineNum="191" parent="globals/WatchFaceSimpleView" pc="268437632" symbol="clearSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="24" lineNum="192" parent="globals/WatchFaceSimpleView" pc="268437636" symbol="clearSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="24" lineNum="193" parent="globals/WatchFaceSimpleView" pc="268437664" symbol="clearSeconds"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="209" parent="globals/WatchFaceSimpleView" pc="268437682" symbol="clearNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="210" parent="globals/WatchFaceSimpleView" pc="268437686" symbol="clearNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="211" parent="globals/WatchFaceSimpleView" pc="268437714" symbol="clearNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="212" parent="globals/WatchFaceSimpleView" pc="268437731" symbol="clearNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="213" parent="globals/WatchFaceSimpleView" pc="268437759" symbol="clearNotificationCount"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="245" parent="globals/WatchFaceSimpleView" pc="268437777" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="246" parent="globals/WatchFaceSimpleView" pc="268437781" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="247" parent="globals/WatchFaceSimpleView" pc="268437806" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="248" parent="globals/WatchFaceSimpleView" pc="268437813" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="249" parent="globals/WatchFaceSimpleView" pc="268437833" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="251" parent="globals/WatchFaceSimpleView" pc="268437852" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="252" parent="globals/WatchFaceSimpleView" pc="268437863" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="254" parent="globals/WatchFaceSimpleView" pc="268437873" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="257" parent="globals/WatchFaceSimpleView" pc="268437880" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="258" parent="globals/WatchFaceSimpleView" pc="268437908" symbol="setHeartRate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="141" parent="globals/WatchFaceSimpleView" pc="268437937" symbol="setColors"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="142" parent="globals/WatchFaceSimpleView" pc="268437941" symbol="setColors"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="143" parent="globals/WatchFaceSimpleView" pc="268437965" symbol="setColors"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="144" parent="globals/WatchFaceSimpleView" pc="268437993" symbol="setColors"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="261" parent="globals/WatchFaceSimpleView" pc="268438021" symbol="setDate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="262" parent="globals/WatchFaceSimpleView" pc="268438025" symbol="setDate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="263" parent="globals/WatchFaceSimpleView" pc="268438075" symbol="setDate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="264" parent="globals/WatchFaceSimpleView" pc="268438153" symbol="setDate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="265" parent="globals/WatchFaceSimpleView" pc="268438181" symbol="setDate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="266" parent="globals/WatchFaceSimpleView" pc="268438195" symbol="setDate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="267" parent="globals/WatchFaceSimpleView" pc="268438223" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="19" lineNum="107" parent="globals/WatchFaceSimpleView" pc="268437118" symbol="applyProperties"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="19" lineNum="108" parent="globals/WatchFaceSimpleView" pc="268437120" symbol="applyProperties"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="19" lineNum="109" parent="globals/WatchFaceSimpleView" pc="268437132" symbol="applyProperties"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="288" parent="globals/WatchFaceSimpleView" pc="268437145" symbol="setPrecipitationChance"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="289" parent="globals/WatchFaceSimpleView" pc="268437149" symbol="setPrecipitationChance"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="290" parent="globals/WatchFaceSimpleView" pc="268437168" symbol="setPrecipitationChance"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="291" parent="globals/WatchFaceSimpleView" pc="268437184" symbol="setPrecipitationChance"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="20" lineNum="292" parent="globals/WatchFaceSimpleView" pc="268437212" symbol="setPrecipitationChance"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="21" lineNum="102" parent="globals/WatchFaceSimpleView" pc="268437250" symbol="getProperties"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="21" lineNum="103" parent="globals/WatchFaceSimpleView" pc="268437252" symbol="getProperties"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="21" lineNum="104" parent="globals/WatchFaceSimpleView" pc="268437280" symbol="getProperties"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="22" lineNum="112" parent="globals/WatchFaceSimpleView" pc="268437309" symbol="setTextColor"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="22" lineNum="113" parent="globals/WatchFaceSimpleView" pc="268437313" symbol="setTextColor"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="22" lineNum="125" parent="globals/WatchFaceSimpleView" pc="268437451" symbol="setTextColor"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="198" parent="globals/WatchFaceSimpleView" pc="268437474" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="199" parent="globals/WatchFaceSimpleView" pc="268437478" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="200" parent="globals/WatchFaceSimpleView" pc="268437494" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="201" parent="globals/WatchFaceSimpleView" pc="268437505" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="203" parent="globals/WatchFaceSimpleView" pc="268437515" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="204" parent="globals/WatchFaceSimpleView" pc="268437543" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="205" parent="globals/WatchFaceSimpleView" pc="268437560" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="206" parent="globals/WatchFaceSimpleView" pc="268437580" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="23" lineNum="207" parent="globals/WatchFaceSimpleView" pc="268437608" symbol="setNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="24" lineNum="193" parent="globals/WatchFaceSimpleView" pc="268437632" symbol="clearSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="24" lineNum="194" parent="globals/WatchFaceSimpleView" pc="268437636" symbol="clearSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="24" lineNum="195" parent="globals/WatchFaceSimpleView" pc="268437664" symbol="clearSeconds"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="211" parent="globals/WatchFaceSimpleView" pc="268437682" symbol="clearNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="212" parent="globals/WatchFaceSimpleView" pc="268437686" symbol="clearNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="213" parent="globals/WatchFaceSimpleView" pc="268437714" symbol="clearNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="214" parent="globals/WatchFaceSimpleView" pc="268437731" symbol="clearNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="25" lineNum="215" parent="globals/WatchFaceSimpleView" pc="268437759" symbol="clearNotificationCount"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="247" parent="globals/WatchFaceSimpleView" pc="268437777" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="248" parent="globals/WatchFaceSimpleView" pc="268437781" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="249" parent="globals/WatchFaceSimpleView" pc="268437806" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="250" parent="globals/WatchFaceSimpleView" pc="268437813" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="251" parent="globals/WatchFaceSimpleView" pc="268437833" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="253" parent="globals/WatchFaceSimpleView" pc="268437852" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="254" parent="globals/WatchFaceSimpleView" pc="268437863" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="256" parent="globals/WatchFaceSimpleView" pc="268437873" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="259" parent="globals/WatchFaceSimpleView" pc="268437880" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="27" lineNum="260" parent="globals/WatchFaceSimpleView" pc="268437908" symbol="setHeartRate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="143" parent="globals/WatchFaceSimpleView" pc="268437937" symbol="setColors"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="144" parent="globals/WatchFaceSimpleView" pc="268437941" symbol="setColors"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="145" parent="globals/WatchFaceSimpleView" pc="268437965" symbol="setColors"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="28" lineNum="146" parent="globals/WatchFaceSimpleView" pc="268437993" symbol="setColors"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="263" parent="globals/WatchFaceSimpleView" pc="268438021" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="264" parent="globals/WatchFaceSimpleView" pc="268438025" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="265" parent="globals/WatchFaceSimpleView" pc="268438075" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="266" parent="globals/WatchFaceSimpleView" pc="268438153" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="267" parent="globals/WatchFaceSimpleView" pc="268438181" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="268" parent="globals/WatchFaceSimpleView" pc="268438195" symbol="setDate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="29" lineNum="269" parent="globals/WatchFaceSimpleView" pc="268438223" symbol="setDate"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="30" lineNum="24" parent="globals/WatchFaceSimpleView" pc="268438238" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="30" lineNum="25" parent="globals/WatchFaceSimpleView" pc="268438240" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="30" lineNum="27" parent="globals/WatchFaceSimpleView" pc="268438258" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="30" lineNum="28" parent="globals/WatchFaceSimpleView" pc="268438283" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="30" lineNum="29" parent="globals/WatchFaceSimpleView" pc="268438308" symbol="initialize"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="30" lineNum="30" parent="globals/WatchFaceSimpleView" pc="268438331" symbol="initialize"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="31" lineNum="126" parent="globals/WatchFaceSimpleView" pc="268438344" symbol="setIconColor"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="31" lineNum="127" parent="globals/WatchFaceSimpleView" pc="268438348" symbol="setIconColor"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="31" lineNum="138" parent="globals/WatchFaceSimpleView" pc="268438473" symbol="setIconColor"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="216" parent="globals/WatchFaceSimpleView" pc="268438496" symbol="setConnected"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="217" parent="globals/WatchFaceSimpleView" pc="268438500" symbol="setConnected"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="218" parent="globals/WatchFaceSimpleView" pc="268438519" symbol="setConnected"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="219" parent="globals/WatchFaceSimpleView" pc="268438536" symbol="setConnected"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="220" parent="globals/WatchFaceSimpleView" pc="268438564" symbol="setConnected"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="31" lineNum="128" parent="globals/WatchFaceSimpleView" pc="268438344" symbol="setIconColor"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="31" lineNum="129" parent="globals/WatchFaceSimpleView" pc="268438348" symbol="setIconColor"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="31" lineNum="140" parent="globals/WatchFaceSimpleView" pc="268438473" symbol="setIconColor"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="218" parent="globals/WatchFaceSimpleView" pc="268438496" symbol="setConnected"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="219" parent="globals/WatchFaceSimpleView" pc="268438500" symbol="setConnected"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="220" parent="globals/WatchFaceSimpleView" pc="268438519" symbol="setConnected"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="221" parent="globals/WatchFaceSimpleView" pc="268438536" symbol="setConnected"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="32" lineNum="222" parent="globals/WatchFaceSimpleView" pc="268438564" symbol="setConnected"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="54" parent="globals/WatchFaceSimpleView" pc="268438588" symbol="onUpdate"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="55" parent="globals/WatchFaceSimpleView" pc="268438592" symbol="onUpdate"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="56" parent="globals/WatchFaceSimpleView" pc="268438617" symbol="onUpdate"/>
         <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="57" parent="globals/WatchFaceSimpleView" pc="268438636" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="58" parent="globals/WatchFaceSimpleView" pc="268438650" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="59" parent="globals/WatchFaceSimpleView" pc="268438660" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="60" parent="globals/WatchFaceSimpleView" pc="268438705" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="63" parent="globals/WatchFaceSimpleView" pc="268438720" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="64" parent="globals/WatchFaceSimpleView" pc="268438745" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="66" parent="globals/WatchFaceSimpleView" pc="268438770" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="67" parent="globals/WatchFaceSimpleView" pc="268438782" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="68" parent="globals/WatchFaceSimpleView" pc="268438794" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="69" parent="globals/WatchFaceSimpleView" pc="268438806" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="70" parent="globals/WatchFaceSimpleView" pc="268438818" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="71" parent="globals/WatchFaceSimpleView" pc="268438830" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="72" parent="globals/WatchFaceSimpleView" pc="268438842" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="73" parent="globals/WatchFaceSimpleView" pc="268438855" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="74" parent="globals/WatchFaceSimpleView" pc="268438867" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="75" parent="globals/WatchFaceSimpleView" pc="268438879" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="77" parent="globals/WatchFaceSimpleView" pc="268438894" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="78" parent="globals/WatchFaceSimpleView" pc="268438906" symbol="onUpdate"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="34" lineNum="5" parent="globals/WatchFaceSimpleApp" pc="268438931" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="35" lineNum="14" parent="globals/WatchFaceSimpleApp" pc="268438950" symbol="onStart"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="36" lineNum="28" parent="globals/WatchFaceSimpleApp" pc="268438953" symbol="onSettingsChanged"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="36" lineNum="29" parent="globals/WatchFaceSimpleApp" pc="268438955" symbol="onSettingsChanged"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="36" lineNum="30" parent="globals/WatchFaceSimpleApp" pc="268438973" symbol="onSettingsChanged"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="37" lineNum="22" parent="globals/WatchFaceSimpleApp" pc="268438990" symbol="getInitialView"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="37" lineNum="23" parent="globals/WatchFaceSimpleApp" pc="268438992" symbol="getInitialView"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="37" lineNum="24" parent="globals/WatchFaceSimpleApp" pc="268439026" symbol="getInitialView"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="38" lineNum="9" parent="globals/WatchFaceSimpleApp" pc="268439049" symbol="initialize"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="38" lineNum="10" parent="globals/WatchFaceSimpleApp" pc="268439051" symbol="initialize"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="39" lineNum="18" parent="globals/WatchFaceSimpleApp" pc="268439070" symbol="onStop"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="62" parent="globals/Rez/Layouts" pc="268439073" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="63" parent="globals/Rez/Layouts" pc="268439085" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="64" parent="globals/Rez/Layouts" pc="268439126" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="66" parent="globals/Rez/Layouts" pc="268439154" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="68" parent="globals/Rez/Layouts" pc="268439319" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="70" parent="globals/Rez/Layouts" pc="268439484" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="72" parent="globals/Rez/Layouts" pc="268439649" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="74" parent="globals/Rez/Layouts" pc="268439811" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="76" parent="globals/Rez/Layouts" pc="268439976" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="78" parent="globals/Rez/Layouts" pc="268440138" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="80" parent="globals/Rez/Layouts" pc="268440303" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="82" parent="globals/Rez/Layouts" pc="268440468" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="84" parent="globals/Rez/Layouts" pc="268440633" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="86" parent="globals/Rez/Layouts" pc="268440795" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="88" parent="globals/Rez/Layouts" pc="268440957" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="90" parent="globals/Rez/Layouts" pc="268441122" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="92" parent="globals/Rez/Layouts" pc="268441284" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="94" parent="globals/Rez/Layouts" pc="268441449" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="96" parent="globals/Rez/Layouts" pc="268441614" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="98" parent="globals/Rez/Layouts" pc="268441779" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="100" parent="globals/Rez/Layouts" pc="268441941" symbol="WatchFace260"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="21" parent="globals/Rez/Layouts" pc="268442128" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="22" parent="globals/Rez/Layouts" pc="268442140" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="23" parent="globals/Rez/Layouts" pc="268442181" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="25" parent="globals/Rez/Layouts" pc="268442209" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="27" parent="globals/Rez/Layouts" pc="268442374" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="29" parent="globals/Rez/Layouts" pc="268442539" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="31" parent="globals/Rez/Layouts" pc="268442704" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="33" parent="globals/Rez/Layouts" pc="268442866" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="35" parent="globals/Rez/Layouts" pc="268443031" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="37" parent="globals/Rez/Layouts" pc="268443193" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="39" parent="globals/Rez/Layouts" pc="268443358" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="41" parent="globals/Rez/Layouts" pc="268443523" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="43" parent="globals/Rez/Layouts" pc="268443688" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="45" parent="globals/Rez/Layouts" pc="268443850" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="47" parent="globals/Rez/Layouts" pc="268444012" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="49" parent="globals/Rez/Layouts" pc="268444177" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="51" parent="globals/Rez/Layouts" pc="268444339" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="53" parent="globals/Rez/Layouts" pc="268444504" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="55" parent="globals/Rez/Layouts" pc="268444669" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="57" parent="globals/Rez/Layouts" pc="268444834" symbol="WatchFace454"/>
-        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="59" parent="globals/Rez/Layouts" pc="268444996" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="58" parent="globals/WatchFaceSimpleView" pc="268438649" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="59" parent="globals/WatchFaceSimpleView" pc="268438663" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="60" parent="globals/WatchFaceSimpleView" pc="268438673" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="61" parent="globals/WatchFaceSimpleView" pc="268438718" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="65" parent="globals/WatchFaceSimpleView" pc="268438736" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="66" parent="globals/WatchFaceSimpleView" pc="268438761" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="68" parent="globals/WatchFaceSimpleView" pc="268438786" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="69" parent="globals/WatchFaceSimpleView" pc="268438798" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="70" parent="globals/WatchFaceSimpleView" pc="268438810" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="71" parent="globals/WatchFaceSimpleView" pc="268438822" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="72" parent="globals/WatchFaceSimpleView" pc="268438834" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="73" parent="globals/WatchFaceSimpleView" pc="268438846" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="74" parent="globals/WatchFaceSimpleView" pc="268438858" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="75" parent="globals/WatchFaceSimpleView" pc="268438871" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="76" parent="globals/WatchFaceSimpleView" pc="268438883" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="77" parent="globals/WatchFaceSimpleView" pc="268438895" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="79" parent="globals/WatchFaceSimpleView" pc="268438910" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleView.mc" id="33" lineNum="80" parent="globals/WatchFaceSimpleView" pc="268438922" symbol="onUpdate"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="34" lineNum="5" parent="globals/WatchFaceSimpleApp" pc="268438947" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="35" lineNum="14" parent="globals/WatchFaceSimpleApp" pc="268438966" symbol="onStart"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="36" lineNum="28" parent="globals/WatchFaceSimpleApp" pc="268438969" symbol="onSettingsChanged"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="36" lineNum="29" parent="globals/WatchFaceSimpleApp" pc="268438971" symbol="onSettingsChanged"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="36" lineNum="30" parent="globals/WatchFaceSimpleApp" pc="268438989" symbol="onSettingsChanged"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="37" lineNum="22" parent="globals/WatchFaceSimpleApp" pc="268439006" symbol="getInitialView"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="37" lineNum="23" parent="globals/WatchFaceSimpleApp" pc="268439008" symbol="getInitialView"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="37" lineNum="24" parent="globals/WatchFaceSimpleApp" pc="268439042" symbol="getInitialView"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="38" lineNum="9" parent="globals/WatchFaceSimpleApp" pc="268439065" symbol="initialize"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="38" lineNum="10" parent="globals/WatchFaceSimpleApp" pc="268439067" symbol="initialize"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/source/WatchFaceSimpleApp.mc" id="39" lineNum="18" parent="globals/WatchFaceSimpleApp" pc="268439086" symbol="onStop"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="62" parent="globals/Rez/Layouts" pc="268439089" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="63" parent="globals/Rez/Layouts" pc="268439101" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="64" parent="globals/Rez/Layouts" pc="268439142" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="66" parent="globals/Rez/Layouts" pc="268439170" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="68" parent="globals/Rez/Layouts" pc="268439335" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="70" parent="globals/Rez/Layouts" pc="268439500" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="72" parent="globals/Rez/Layouts" pc="268439665" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="74" parent="globals/Rez/Layouts" pc="268439827" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="76" parent="globals/Rez/Layouts" pc="268439992" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="78" parent="globals/Rez/Layouts" pc="268440154" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="80" parent="globals/Rez/Layouts" pc="268440319" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="82" parent="globals/Rez/Layouts" pc="268440484" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="84" parent="globals/Rez/Layouts" pc="268440649" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="86" parent="globals/Rez/Layouts" pc="268440811" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="88" parent="globals/Rez/Layouts" pc="268440973" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="90" parent="globals/Rez/Layouts" pc="268441138" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="92" parent="globals/Rez/Layouts" pc="268441300" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="94" parent="globals/Rez/Layouts" pc="268441465" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="96" parent="globals/Rez/Layouts" pc="268441630" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="98" parent="globals/Rez/Layouts" pc="268441795" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="40" lineNum="100" parent="globals/Rez/Layouts" pc="268441957" symbol="WatchFace260"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="21" parent="globals/Rez/Layouts" pc="268442144" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="22" parent="globals/Rez/Layouts" pc="268442156" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="23" parent="globals/Rez/Layouts" pc="268442197" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="25" parent="globals/Rez/Layouts" pc="268442225" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="27" parent="globals/Rez/Layouts" pc="268442390" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="29" parent="globals/Rez/Layouts" pc="268442555" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="31" parent="globals/Rez/Layouts" pc="268442720" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="33" parent="globals/Rez/Layouts" pc="268442882" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="35" parent="globals/Rez/Layouts" pc="268443047" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="37" parent="globals/Rez/Layouts" pc="268443209" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="39" parent="globals/Rez/Layouts" pc="268443374" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="41" parent="globals/Rez/Layouts" pc="268443539" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="43" parent="globals/Rez/Layouts" pc="268443704" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="45" parent="globals/Rez/Layouts" pc="268443866" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="47" parent="globals/Rez/Layouts" pc="268444028" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="49" parent="globals/Rez/Layouts" pc="268444193" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="51" parent="globals/Rez/Layouts" pc="268444355" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="53" parent="globals/Rez/Layouts" pc="268444520" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="55" parent="globals/Rez/Layouts" pc="268444685" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="57" parent="globals/Rez/Layouts" pc="268444850" symbol="WatchFace454"/>
+        <entry filename="/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" id="41" lineNum="59" parent="globals/Rez/Layouts" pc="268445012" symbol="WatchFace454"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -381,48 +382,48 @@
         <entry endPc="268438236" name="textArea" stackId="4" startPc="268438025"/>
         <entry endPc="268438494" name="array" stackId="1" startPc="268438348"/>
         <entry endPc="268438580" name="textArea" stackId="1" startPc="268438536"/>
-        <entry arg="true" endPc="268438930" name="dc" stackId="1" startPc="268438588"/>
-        <entry endPc="268438929" name="newToday" stackId="2" startPc="268438592"/>
-        <entry arg="true" endPc="268442127" name="dc" stackId="1" startPc="268439073"/>
-        <entry endPc="268442127" name="local_Rez_Fonts_Icons24" stackId="2" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_custom_drawable_50806775197638463314" stackId="3" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_RainIcon" stackId="7" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_SunText" stackId="8" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_SunIcon" stackId="9" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_HoursMinutesText" stackId="10" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_SecondsText" stackId="11" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_NotifCountText" stackId="12" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_NotifCountIcon" stackId="13" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_ConnnectedBT" stackId="14" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_HeartRateText" stackId="15" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_HeartRateIcon" stackId="16" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_DateDayText" stackId="17" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_DateNumberText" stackId="18" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_BatteryText" stackId="19" startPc="268439085"/>
-        <entry endPc="268442127" name="rez_cmp_local_textarea_BatteryIcon" stackId="20" startPc="268439085"/>
-        <entry arg="true" endPc="268445182" name="dc" stackId="1" startPc="268442128"/>
-        <entry endPc="268445182" name="local_Rez_Fonts_Icons45" stackId="2" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_custom_drawable_15619796935800609191" stackId="3" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_RainIcon" stackId="7" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_SunText" stackId="8" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_SunIcon" stackId="9" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_HoursMinutesText" stackId="10" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_SecondsText" stackId="11" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_NotifCountText" stackId="12" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_NotifCountIcon" stackId="13" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_ConnnectedBT" stackId="14" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_HeartRateText" stackId="15" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_HeartRateIcon" stackId="16" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_DateDayText" stackId="17" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_DateNumberText" stackId="18" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_BatteryText" stackId="19" startPc="268442140"/>
-        <entry endPc="268445182" name="rez_cmp_local_textarea_BatteryIcon" stackId="20" startPc="268442140"/>
+        <entry arg="true" endPc="268438946" name="dc" stackId="1" startPc="268438588"/>
+        <entry endPc="268438945" name="newToday" stackId="2" startPc="268438592"/>
+        <entry arg="true" endPc="268442143" name="dc" stackId="1" startPc="268439089"/>
+        <entry endPc="268442143" name="local_Rez_Fonts_Icons24" stackId="2" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_custom_drawable_68990022021187516882" stackId="3" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_RainIcon" stackId="7" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_SunText" stackId="8" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_SunIcon" stackId="9" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_HoursMinutesText" stackId="10" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_SecondsText" stackId="11" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_NotifCountText" stackId="12" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_NotifCountIcon" stackId="13" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_ConnnectedBT" stackId="14" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_HeartRateText" stackId="15" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_HeartRateIcon" stackId="16" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_DateDayText" stackId="17" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_DateNumberText" stackId="18" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_BatteryText" stackId="19" startPc="268439101"/>
+        <entry endPc="268442143" name="rez_cmp_local_textarea_BatteryIcon" stackId="20" startPc="268439101"/>
+        <entry arg="true" endPc="268445198" name="dc" stackId="1" startPc="268442144"/>
+        <entry endPc="268445198" name="local_Rez_Fonts_Icons45" stackId="2" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_custom_drawable_63541371212992277027" stackId="3" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_TemperatureText" stackId="4" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_TemperatureUnit" stackId="5" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_RainText" stackId="6" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_RainIcon" stackId="7" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_SunText" stackId="8" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_SunIcon" stackId="9" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_HoursMinutesText" stackId="10" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_SecondsText" stackId="11" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_NotifCountText" stackId="12" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_NotifCountIcon" stackId="13" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_ConnnectedBT" stackId="14" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_HeartRateText" stackId="15" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_HeartRateIcon" stackId="16" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_DateDayText" stackId="17" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_DateNumberText" stackId="18" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_BatteryText" stackId="19" startPc="268442156"/>
+        <entry endPc="268445198" name="rez_cmp_local_textarea_BatteryIcon" stackId="20" startPc="268442156"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGreen"/>
@@ -562,27 +563,27 @@
         <functionEntry accessMode="protected" endPc="268438587" name="setConnected" parent="WatchFaceSimpleView" startPc="268438496">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438930" name="onUpdate" parent="WatchFaceSimpleView" startPc="268438588">
+        <functionEntry accessMode="public" endPc="268438946" name="onUpdate" parent="WatchFaceSimpleView" startPc="268438588">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438949" name="&lt;init&gt;" parent="WatchFaceSimpleApp" startPc="268438931">
+        <functionEntry accessMode="public" endPc="268438965" name="&lt;init&gt;" parent="WatchFaceSimpleApp" startPc="268438947">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438952" name="onStart" parent="WatchFaceSimpleApp" startPc="268438950">
+        <functionEntry accessMode="public" endPc="268438968" name="onStart" parent="WatchFaceSimpleApp" startPc="268438966">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438989" name="onSettingsChanged" parent="WatchFaceSimpleApp" startPc="268438953">
+        <functionEntry accessMode="public" endPc="268439005" name="onSettingsChanged" parent="WatchFaceSimpleApp" startPc="268438969">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439048" name="getInitialView" parent="WatchFaceSimpleApp" startPc="268438990">
+        <functionEntry accessMode="public" endPc="268439064" name="getInitialView" parent="WatchFaceSimpleApp" startPc="268439006">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439069" name="initialize" parent="WatchFaceSimpleApp" startPc="268439049">
+        <functionEntry accessMode="public" endPc="268439085" name="initialize" parent="WatchFaceSimpleApp" startPc="268439065">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439072" name="onStop" parent="WatchFaceSimpleApp" startPc="268439070">
+        <functionEntry accessMode="public" endPc="268439088" name="onStop" parent="WatchFaceSimpleApp" startPc="268439086">
             <param id="state"/>
             <documentation/>
         </functionEntry>
@@ -604,11 +605,11 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442127" name="WatchFace260" parent="Layouts" startPc="268439073">
+        <functionEntry accessMode="public" endPc="268442143" name="WatchFace260" parent="Layouts" startPc="268439089">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445182" name="WatchFace454" parent="Layouts" startPc="268442128">
+        <functionEntry accessMode="public" endPc="268445198" name="WatchFace454" parent="Layouts" startPc="268442144">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
