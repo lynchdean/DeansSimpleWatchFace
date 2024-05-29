@@ -59,10 +59,10 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_21_76
             lputv %local_Rez_Fonts_Icons45.1 %tmp.8;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 23 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_21_76_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_21_76_stop" ]
-            %rez_cmp_local_custom_drawable_63541371212992277027.2 = local;
+            %rez_cmp_local_custom_drawable_15007523982673897571.2 = local;
             %tmp.12 = getv ? :Background;
             %tmp.9 = newc %tmp.12 ();
-            lputv %rez_cmp_local_custom_drawable_63541371212992277027.2 %tmp.9;
+            lputv %rez_cmp_local_custom_drawable_15007523982673897571.2 %tmp.9;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 25 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_21_76_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_21_76_stop" ]
             %rez_cmp_local_textarea_TemperatureText.3 = local;
@@ -1246,7 +1246,7 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_21_76
             lputv %rez_cmp_local_textarea_BatteryIcon.19 %tmp.1227;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 59 12 ]
             %tmp.1302 = newa Array<WatchUi.Drawable> 18;
-            %tmp.1304 = lgetv %rez_cmp_local_custom_drawable_63541371212992277027.2;
+            %tmp.1304 = lgetv %rez_cmp_local_custom_drawable_15007523982673897571.2;
             %tmp.1305 = dup %tmp.1302;
             %tmp.1306 = aputv %tmp.1305 0 %tmp.1304;
             %tmp.1308 = lgetv %rez_cmp_local_textarea_TemperatureText.3;
@@ -1320,10 +1320,10 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_62_76
             lputv %local_Rez_Fonts_Icons24.1 %tmp.8;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 64 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_62_76_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_62_76_stop" ]
-            %rez_cmp_local_custom_drawable_68990022021187516882.2 = local;
+            %rez_cmp_local_custom_drawable_19210741587847023767.2 = local;
             %tmp.12 = getv ? :Background;
             %tmp.9 = newc %tmp.12 ();
-            lputv %rez_cmp_local_custom_drawable_68990022021187516882.2 %tmp.9;
+            lputv %rez_cmp_local_custom_drawable_19210741587847023767.2 %tmp.9;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 66 12 ]
             [ "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_62_76_start" "_Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_62_76_stop" ]
             %rez_cmp_local_textarea_TemperatureText.3 = local;
@@ -2507,7 +2507,7 @@ _Users_dean_Projects_WatchFaceSimple_bin_gen_006_B4315_00_source_Rez_mcgen_62_76
             lputv %rez_cmp_local_textarea_BatteryIcon.19 %tmp.1227;
 [ "/Users/dean/Projects/WatchFaceSimple/bin/gen/006-B4315-00/source/Rez.mcgen" 100 12 ]
             %tmp.1302 = newa Array<WatchUi.Drawable> 18;
-            %tmp.1304 = lgetv %rez_cmp_local_custom_drawable_68990022021187516882.2;
+            %tmp.1304 = lgetv %rez_cmp_local_custom_drawable_19210741587847023767.2;
             %tmp.1305 = dup %tmp.1302;
             %tmp.1306 = aputv %tmp.1305 0 %tmp.1304;
             %tmp.1308 = lgetv %rez_cmp_local_textarea_TemperatureText.3;

@@ -79,7 +79,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             setPrecipitationChance();
             setSunriseSunset();
         }
-        applyProperties();
+        // applyProperties();
         View.onUpdate(dc);
     }
 
@@ -99,7 +99,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     function handleSettingsUpdate() as Void {
         getProperties();
-        // applyProperties();
+        applyProperties();
     }
 
     hidden function getProperties() as Void {
@@ -190,7 +190,6 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var secondsString = clockTime.sec.format("%02d");
         var textArea = View.findDrawableById("SecondsText") as TextArea;
         textArea.setText(secondsString);
-        // textArea.setColor(iconColor);
     }
 
     hidden function clearSeconds() as Void {
@@ -208,7 +207,6 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         icon.setColor(iconColor);
         var textArea = View.findDrawableById("NotifCountText") as TextArea;
         textArea.setText(nc.toString());
-        // textArea.setColor(textColor);
     }
 
     hidden function clearNotificationCount() as Void {
@@ -236,29 +234,27 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var icon = View.findDrawableById("BatteryIcon") as TextArea;
         if (stats.charging)  {
             icon.setText("0");
-            icon.setColor(Graphics.COLOR_GREEN);
         } else if (battery > 50) {
            icon.setText("1");
         } else if (battery > 5) {
            icon.setText("2");
         } else {
            icon.setText("3");
-           icon.setColor(Graphics.COLOR_RED);
         }
     }
 
     hidden function setHeartRate() as Void {
         var hr = Activity.getActivityInfo().currentHeartRate;
         if (hr == null) {
-            var heartrateIterator = ActivityMonitor.getHeartRateHistory(null, false);
-            var hrFromHistory = heartrateIterator.next().heartRate;
+            var heartrateIterator = ActivityMonitor.getHeartRateHistory(1, true);
+            var hrHistory = heartrateIterator.next();
 
-            if(hrFromHistory == ActivityMonitor.INVALID_HR_SAMPLE) {
-                hr = "--";
+            if(hrHistory != null && hrHistory.heartRate != ActivityMonitor.INVALID_HR_SAMPLE){
+                hr = hrHistory.heartRate;
             } else {
-                hr = hrFromHistory;
+                hr = "--"
             }
-        }	
+        }
         var textArea = View.findDrawableById("HeartRateText") as TextArea; 
 	    textArea.setText(hr.format("%d"));
     }
