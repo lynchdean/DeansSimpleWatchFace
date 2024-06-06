@@ -252,7 +252,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             if(hrHistory != null && hrHistory.heartRate != ActivityMonitor.INVALID_HR_SAMPLE){
                 hr = hrHistory.heartRate;
             } else {
-                hr = "--"
+                hr = "--";
             }
         }
         var textArea = View.findDrawableById("HeartRateText") as TextArea; 
