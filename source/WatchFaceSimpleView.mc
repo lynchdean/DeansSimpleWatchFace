@@ -79,7 +79,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             setPrecipitationChance();
             setSunriseSunset();
         }
-        // applyProperties();
+        applyProperties();
         View.onUpdate(dc);
     }
 
@@ -99,7 +99,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
 
     function handleSettingsUpdate() as Void {
         getProperties();
-        applyProperties();
+        // applyProperties();
     }
 
     hidden function getProperties() as Void {
