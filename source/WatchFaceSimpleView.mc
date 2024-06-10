@@ -24,13 +24,15 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     function initialize() {
         WatchFace.initialize();
 
+        textColor = Properties.getValue("TextColor") as Number;
+        iconColor = Properties.getValue("IconColor") as Number;
+
         settings = System.getDeviceSettings();
         stats = System.getSystemStats();
         currentConditions = Weather.getCurrentConditions();
 
         date = Gregorian.info(Time.now(), Time.FORMAT_LONG);
         today = Time.today();
-        getProperties();
     } 
 
     // Load your resources here
@@ -79,7 +81,6 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             setPrecipitationChance();
             setSunriseSunset();
         }
-        applyProperties();
         View.onUpdate(dc);
     }
 
@@ -98,56 +99,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
     }
 
     function handleSettingsUpdate() as Void {
-        getProperties();
-        // applyProperties();
-    }
-
-    hidden function getProperties() as Void {
         textColor = Properties.getValue("TextColor") as Number;
         iconColor = Properties.getValue("IconColor") as Number;
-    }
-
-    hidden function applyProperties() {
-        setTextColor();
-        setIconColor();
-    }
-
-    hidden function setTextColor() as Void { 
-        var array = [
-            "HoursMinutesText",
-            "TemperatureText",
-            "RainText",
-            "SunText",
-            "NotifCountText",
-            "NotifCountText",
-            "HeartRateText",
-            "DateDayText",
-            "DateNumberText",
-            "BatteryText"
-        ] as Array<String>;
-        setColors(array, textColor);
-    }
-
-    hidden function setIconColor() as Void {
-        var array = [
-            "ConnnectedBT",
-            "SecondsText",
-            "NotifCountIcon",
-            "NotifCountIcon",
-            "RainIcon",
-            "TemperatureUnit",
-            "SunIcon",
-            "HeartRateIcon",
-            "BatteryIcon"
-        ] as Array<String>;
-        setColors(array, iconColor);
-    }
-
-    hidden function setColors(array as Array<String>, color as Number) {
-        for (var i = 0; i < array.size(); i++) {
-            var textArea = View.findDrawableById(array[i]) as TextArea;
-            textArea.setColor(color);
-        }
     }
 
     hidden function updateSunsetSunrise() as Void {
@@ -190,6 +143,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var secondsString = clockTime.sec.format("%02d");
         var textArea = View.findDrawableById("SecondsText") as TextArea;
         textArea.setText(secondsString);
+        textArea.setColor(iconColor);
     }
 
     hidden function clearSeconds() as Void {
@@ -207,6 +161,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         icon.setColor(iconColor);
         var textArea = View.findDrawableById("NotifCountText") as TextArea;
         textArea.setText(nc.toString());
+        textArea.setColor(textColor);
     }
 
     hidden function clearNotificationCount() as Void {
@@ -221,6 +176,7 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             if (settings.phoneConnected) {
                 var textArea = View.findDrawableById("ConnnectedBT") as TextArea;
                 textArea.setText("B");
+                textArea.setColor(iconColor);
             }
         }
     }
@@ -229,9 +185,12 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var battery = stats.battery;	
         var textArea = View.findDrawableById("BatteryText") as TextArea;
 	    textArea.setText(battery.format("%d")+"%");
+        textArea.setColor(textColor);
 
         // Set battery icon
         var icon = View.findDrawableById("BatteryIcon") as TextArea;
+        icon.setColor(iconColor);
+
         if (stats.charging)  {
             icon.setText("0");
         } else if (battery > 50) {
@@ -257,6 +216,10 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         }
         var textArea = View.findDrawableById("HeartRateText") as TextArea; 
 	    textArea.setText(hr.format("%d"));
+        textArea.setColor(textColor);
+        var icon = View.findDrawableById("HeartRateIcon") as TextArea;
+        icon.setColor(iconColor);
+
     }
 
     hidden function setDate() as Void {        
@@ -266,9 +229,11 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         var dateNumberString = Lang.format("$1$", [date.day]);
 	    var dateDayString = Lang.format("$1$", [date.day_of_week]).substring(0, 3).toUpper();
 	    var dateNumber = View.findDrawableById("DateNumberText") as TextArea;  
-	    dateNumber.setText(dateNumberString);	    
+	    dateNumber.setText(dateNumberString);	
+        dateNumber.setColor(textColor);
         var textArea = View.findDrawableById("DateDayText") as TextArea;
 	    textArea.setText(dateDayString);
+        textArea.setColor(textColor);
     }
 
     hidden function setTemperature() as Void {   
@@ -284,6 +249,9 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             }
             var textArea = View.findDrawableById("TemperatureText") as TextArea;
             textArea.setText(temperature.format("%d"));
+            textArea.setColor(textColor);
+            var icon = View.findDrawableById("TemperatureUnit") as TextArea;
+            icon.setColor(iconColor);
         }  
     }
 
@@ -292,12 +260,17 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
             var chance = currentConditions.precipitationChance;
             var textArea = View.findDrawableById("RainText") as TextArea; 
             textArea.setText(chance.format("%d") + "%");
+            textArea.setColor(textColor);
+            var icon = View.findDrawableById("RainIcon") as TextArea;
+            icon.setColor(iconColor);
         }
     }
 
     hidden function setSunriseSunset() as Void {
         var info;
         var sunIcon = View.findDrawableById("SunIcon") as TextArea;
+        sunIcon.setColor(iconColor);
+
         if(now.greaterThan(sunrise) && now.lessThan(sunset)) {
             info = Gregorian.info(sunset, Time.FORMAT_SHORT);
             sunIcon.setText("s");
@@ -307,7 +280,8 @@ class WatchFaceSimpleView extends WatchUi.WatchFace {
         }
 
         var sunTime = Lang.format("$1$:$2$", [info.hour.format("%02d"), info.min.format("%02d")]);
-        var textArea = View.findDrawableById("SunText") as TextArea;  
-        textArea.setText(sunTime); 
+        var textArea = View.findDrawableById("SunText") as TextArea;
+        textArea.setText(sunTime);
+        textArea.setColor(textColor);
     }
 }
